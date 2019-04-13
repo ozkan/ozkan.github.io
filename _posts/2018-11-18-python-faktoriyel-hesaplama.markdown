@@ -4,8 +4,7 @@ title: "Python ile faktöriyel hesaplama" #yazının tarayıcıda görünecek ba
 date: 2019-03-18 01:55:00 +0300 #yazının tarihi
 description: Python ile faktöriyel hesaplama. #yazının kısa açıklaması
 img: about_us.png 
-published: true
-
+published: false
 `python` programlama dilini kullanarak, faktöriyel hesaplama. <br>
 Hesaplama yapılırken çarpma işlemi operatörü kullanılmayacaktır.
 

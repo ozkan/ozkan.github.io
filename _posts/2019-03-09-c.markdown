@@ -3,7 +3,8 @@ layout: post
 title: "C Programlama Örnekleri"
 date: 2019-03-09 21:55:20 +0300
 description: C Örnekleri
-img: cprogramlama.png
+#img: cprogramlama.png
+img: about_us.png 
 tags: [c, c programlama]
 ---
 
