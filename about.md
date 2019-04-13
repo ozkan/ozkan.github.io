@@ -1,5 +1,5 @@
 ---
-layout: asic
+layout: basic
 title: Hakkımda
 date: 
 description:  Özkan Çelik
