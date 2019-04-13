@@ -1,10 +1,10 @@
 ---
-layout: project  #yazının hangi layout'a göre oluşturulacağı
+layout: post  #yazının hangi layout'a göre oluşturulacağı
 title: "Python ile faktöriyel hesaplama" #yazının tarayıcıda görünecek başlığı
 date: 2018-11-18 01:55:00 +0300 #yazının tarihi
 description: Python ile faktöriyel hesaplama. #yazının kısa açıklaması
 img: python.png
-published: true
+published: false
 ---
 
 `python` programlama dilini kullanarak, faktöriyel hesaplama. <br>
