@@ -3,7 +3,7 @@ layout: post  #yazının hangi layout'a göre oluşturulacağı
 title: "Python ile faktöriyel hesaplama" #yazının tarayıcıda görünecek başlığı
 date: 2019-03-18 01:55:00 +0300 #yazının tarihi
 description: Python ile faktöriyel hesaplama. #yazının kısa açıklaması
-img: python.png
+img: about_us.png 
 published: true
 
 `python` programlama dilini kullanarak, faktöriyel hesaplama. <br>
