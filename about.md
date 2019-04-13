@@ -1,9 +1,9 @@
 ---
 layout: basic
-title: Hakkımda
+title: 
 date: 
 description:  Özkan Çelik
-img:  # Add image post (optional)
+img: about_us.png # Add image post (optional)
 tags: # add tag
 type: about
 disqus_disabled: true
