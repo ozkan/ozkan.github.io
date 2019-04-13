@@ -1,0 +1,43 @@
+title: özkan çelik
+description: > # this means to ignore newlines until "baseurl:"
+  özkan çelik kişisel blog sitesi, python ,diy, bote, raspberry pi, elektronik 
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+#url: "http://celikozkan.com" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Özkan ÇELİK # add your name
+author-img: ozkancelik.png # add your photo
+about-author: Bir şeyler deniyorum # add description
+social-twitter: .# add your Twitter handle
+social-facebook: .# add your Facebook handle
+social-github: celikozkan # add your Github handle
+social-linkedin: celikozkan # add your Linkedin handle
+social-email: ozkan44celik@gmail.com # add your Email address
+
+# Disqus
+discus-identifier: ozkancelik # add your discus identifier
+
+# Tracker
+analytics: UA-129762459-1 # Google Analytics
+
+# Build Settings
+markdown: kramdown
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-seo-tag
+
+jekyll-mentions:
+  base_url: https://twitter.com
+
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

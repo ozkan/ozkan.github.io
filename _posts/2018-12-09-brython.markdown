@@ -1,0 +1,108 @@
+---
+layout: post
+title: "Web Sayfalarında Javascript Yerine Python Kullanmak"
+date: 2018-12-09 18:28:20 +0300
+description: Brython
+img: brython.png
+tags: [python, brython]
+---
+
+**Brython**,  Python kodlarını tarayıcıya yerleşik, tarayıcı desteği olan bir dilmiş gibi web sayfası içinde  yazap çalıştırabilmeyi sağlar.  
+Python komut dosyası etiketlerini bulur ve bunları eşdeğer JavaScript kodunu içeren JavaScript komut dosyası etiketleriyle değiştirir.  
+Bu şekilde web için betik dili olarak Javascript'in yerini almayı amaçlar. 
+
+**Brython nasıl çalışıyor?**  
+Brython kütüphanesinin çalışması için öncelikle yerel makineye yüklenmesi veya çevrimiçi olarak sunulan dağıtımın kullanılması gerekiyor.  
+Yerel makineye pip paket yöneticisini kullanarak şu şeklide yükleyebilirsiniz.<br>
+{% highlight python %}
+pip install brython
+{% endhighlight %} <br>
+Daha sonra yeni bir dizin oluşturun ve çalıştırın: <br>
+{% highlight python %}
+python -m brython --install
+{% endhighlight %}
+
+Brython'ı çalıştırmanın en basit yolu, kurulacak herhangi bir şey olmaksızın,  çevrimiçi olarak sunulan dağıtımı kullanmaktır. 
+şu şekilde:
+
+{% highlight html %}
+
+<script type="text/javascript"
+    src="https://cdn.rawgit.com/brython-dev/brython/3.6.2/www/src/brython.js">
+</script>
+{% endhighlight %}
+
+
+Betik çalışmaya başlamadan önce bryrthon () işlevine bir çağrı eklemeniz gerekir. <br> şu şekilde: <br>
+{% highlight html %}
+<body onload ="brython()">
+{% endhighlight %}
+
+Bu işlem Brython komut dosyası etiketlerini bulur ve bunları eşdeğer JavaScript kodunu içeren JavaScript komut dosyası etiketleriyle değiştirir. Brython, sayfa yüklenirken Brython kodunu JavaScript’e derler. JavaScript'e derleme yamanın en büyük dezavantajı, doğrudan hata ayıklamanın orijinal dilden ziyade JavaScript açısından yapılması gerektiğidir. Python'u JavaScript'e dönüştüren bir derleyicinin olası başarısından şüphelenebilirsiniz, ancak iki dilin çekirdekleri çok benzerdir. Bython, Python'nın %100'lük bir uygulaması olmasa da  Python programcılarının güvendiği kütüphanelerin çoğunu barındırır.
+
+**Küçük bir örnek:**  
+Aşağıdaki kutucuğa herhangi bir sayı yazıp hesapla butonuna tıkladığınızda, girilen sayının faktöryelini hesaplayacaktır. Eğer sağ tıklayıp 'sayfa kaynağını göster' derseniz, web kodlarının
+içinde python kodlarını olduğunu göreceksiniz.  
+
+<html>
+<head>
+<script type="text/javascript"
+    src="https://cdn.rawgit.com/brython-dev/brython/3.6.2/www/src/brython.js">
+</script>
+</head>
+ 
+<body onload="brython()">
+<script type="text/python">
+    
+from browser import document, alert
+from math import factorial
+
+def faktoriyel_h():
+    if not document["zone"].value.isnumeric():
+        alert("Sadece Sayı girin")
+    else:
+        alert(factorial(document["zone"].value))
+document["mybutton"].bind("click", faktoriyel_h)
+</script>
+<input id="zone">
+<button id="mybutton">Hesapla</button>
+</body>
+</html>
+
+
+{% highlight html %}
+<html>
+<head>
+<script type="text/javascript"
+    src="https://cdn.rawgit.com/brython-dev/brython/3.6.2/www/src/brython.js">
+</script>
+</head>
+<body onload="brython()">
+<script type="text/python">
+from browser import document, alert
+from math import factorial
+
+def faktoriyel_h():
+    if not document["zone"].value.isnumeric():
+        alert("Sadece Sayı girin")
+    else:
+        alert(factorial(document["zone"].value))
+
+document["mybutton"].bind("click", faktoriyel_h)
+</script>
+<input id="zone">
+<button id="mybutton">Hesapla</button>
+</body>
+</html>
+{% endhighlight %}
+
+Bu kodlar üzerinde değişiklik yapmak, test etmek isterseniz: 
+[codepen.io](https://codepen.io/celikozkan/pen/eQxEzY)
+
+
+
+
+
+
+
+
