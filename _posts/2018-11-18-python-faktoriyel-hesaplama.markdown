@@ -7,7 +7,6 @@ img: python.png
 published: false
 ---
 
-
 `python` programlama dilini kullanarak, faktöriyel hesaplama. <br>
 Hesaplama yapılırken çarpma işlemi operatörü kullanılmayacaktır.
 
