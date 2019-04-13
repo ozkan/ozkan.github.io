@@ -37,10 +37,9 @@ def karistir(cumle):
 veri= input("Bir şeyler yaz: ")
 print(karistir(veri))
 #ozkan
-```
+``
 
-{% include testet.html adres="https://repl.it/@celikozkan/insan-beyni-kelime?lite=true" %}
-
+<p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/insan-beyni-kelime" isim="Tıkla Test ET!" %} </p>`
 <p align="right"><small>Dijital Fotoğraf: Bettina Güber </small></p>
 
 
