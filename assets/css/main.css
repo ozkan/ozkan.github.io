@@ -1337,13 +1337,14 @@ a.newer-posts:hover {
 }
 
 .recent-box .recent-list .recent-item span {
-  position: absolute;
+  /*position: absolute;*/
   font-size: 14px;
   left: 2.5%;
   bottom: 10%;
   /*background-color: #ecf0f1;*/
   color: #311e3e;
   text-align: center;
+  background-color: #d5f4e6;
 }
 
 .recent-box .recent-list .recent-item:hover {
