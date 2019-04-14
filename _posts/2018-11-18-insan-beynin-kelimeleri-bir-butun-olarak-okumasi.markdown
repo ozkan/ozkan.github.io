@@ -40,7 +40,7 @@ print(karistir(veri))
 ```
 
 <p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/insan-beyni-kelime" isim="Tıkla Test ET!" %} </p>`
-<p align="right"><small>Dijital Fotoğraf: Bettina Güber </small></p>
+
 
 
 
