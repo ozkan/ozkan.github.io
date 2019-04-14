@@ -1309,48 +1309,6 @@ a.newer-posts:hover {
   text-decoration: underline;
 }
 
-/* - - - - - - - - - - recent post - - - - - - - - - - */
-
-.recent-box {
-  margin-top: 30px;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #d9d9d9;
-}
-
-.recent-box .recent-title {
-  font-family: 'PT Serif', sans-serif;
-  font-weight: 400;
-  color: #311e3e;
-  text-align: center;
-  margin: 0 0 30px;
-}
-
-.recent-box .recent-list .recent-item {
-  position: relative;
-  display: inline-block;
-  width: 24%;
-  height: 150px;
-  margin-left: 0.5%;
-  margin-bottom: 0.5%;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-}
-
-.recent-box .recent-list .recent-item span {
-  position: absolute;
-  font-size: 14px;
-  left: 2.5%;
-  bottom: 1%;
-  /*background-color: #ecf0f1;*/
-  color: #311e3e;
-  text-align: center;
-}
-
-.recent-box .recent-list .recent-item:hover {
-  opacity: 0.8;
-}
-
-
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */
 .blog-tags {
   width: 100%;
@@ -1432,6 +1390,47 @@ a.newer-posts:hover {
   .post .post-content .post-title a {
     font-size: 21px;
   }
+
+/* - - - - - - - - - - recent post - - - - - - - - - - */
+
+.recent-box {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.recent-box .recent-title {
+  font-family: 'PT Serif', sans-serif;
+  font-weight: 400;
+  color: #311e3e;
+  text-align: center;
+  margin: 0 0 30px;
+}
+
+.recent-box .recent-list .recent-item {
+  position: relative;
+  display: inline-block;
+  width: 24%;
+  height: 150px;
+  margin-left: 0.5%;
+  margin-bottom: 0.5%;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.recent-box .recent-list .recent-item span {
+  position: absolute;
+  font-size: 14px;
+  left: 2.5%;
+  bottom: 1%;
+  /*background-color: #ecf0f1;*/
+  color: #311e3e;
+  text-align: center;
+}
+
+.recent-box .recent-list .recent-item:hover {
+  opacity: 0.8;
+}
 }
 
 /* Small Devices, Tablets */
@@ -1494,6 +1493,7 @@ a.newer-posts:hover {
   .contact-title, .copyright {
     display: none;
   }
+  /*
   
   .recent-box .recent-list .recent-item {
     position: relative;
@@ -1511,7 +1511,7 @@ a.newer-posts:hover {
     color: #311e3e;
     text-align: center;
 }
-
+*/
 }
 
 /* Extra Small Devices, Phones */
@@ -1542,7 +1542,7 @@ a.newer-posts:hover {
     font-size: 21px;
   }
 
-  
+  /*
   .recent-box .recent-list .recent-item {
     position: relative;
     display: inline-block;
@@ -1559,5 +1559,6 @@ a.newer-posts:hover {
     color: #311e3e;
     text-align: center;
 }
+*/
 
 }
