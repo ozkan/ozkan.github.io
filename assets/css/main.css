@@ -1342,6 +1342,7 @@ a.newer-posts:hover {
   left: 2.5%;
   bottom: 10%;
   color: #311e3e;
+  text-align: center;
 }
 
 .recent-box .recent-list .recent-item:hover {
