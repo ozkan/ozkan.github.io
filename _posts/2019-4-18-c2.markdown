@@ -1,0 +1,595 @@
+---
+layout: post
+title: "C Programlama Örnekleri 2"
+date: 2019-04-18 19:44:20 +0300
+description: C Programlama Örnekleri 2
+img: cprogramlama.png 
+tags: [c, c programlama]
+---
+
+<a name="ornek21">`Örnek 21`</a><br>
+Girilen sayının mükemmel sayı olup olmadığını bulan program<br>
+Kendisi hariç bütün pozitif bölenlerinin toplamı kendisine eşit olan sayılara mükemmel sayı denir.
+
+{% highlight c %}
+#include <stdio.h>
+
+int main(void){
+int sayi;
+int toplam=0;
+printf("sayi giriniz:");
+scanf("%d", &sayi);
+
+for (int i = 1; i < sayi; i++){
+  if (sayi%i == 0){
+    toplam += i;
+  }
+}
+
+if (sayi == toplam){
+  printf("%d mukemmel sayidir.", sayi);
+}
+else{
+  printf("%d mukemmel sayi degildir.", sayi);
+}
+
+return 0;
+}
+{% endhighlight %}
+<p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/ornek21" isim="Tıkla Test ET!" %} </p>
+
+***
+
+<a name="ornek22">`Örnek 22`</a><br>
+Aylık maaşı 5000 tl, aylık verdiği vergi %15 olan bir çalışanın<br>
+geliri yıl içinde  20000 tl'yi geçince verdiği vergi %20'dir.  <br>
+Bu çalışan yil sonunda kaç lira almış, kaç lira vermiştir?<br>
+{% highlight c %}
+#include <stdio.h>  
+
+int main(void) {
+  float maas = 5000;
+  float vergi1 = 0.15;
+  float vergi2 = 0.20;
+  float tvergi, gelir; //toplam vergi , toplam gelir
+  int i;
+
+  for(i=1; i<=12; i++ ){
+    if (gelir < 20000){
+      tvergi += maas*vergi1;
+      gelir += maas-maas*vergi1;
+      printf("%d. Ay sonundaki\n  Gelir: %g tl\n  Vergi: %g tl \n", i, gelir, tvergi);
+    }
+    else{
+      tvergi += maas*vergi2;
+      gelir += maas-maas*vergi2;
+      printf("%d. Ay sonundaki\n Gelir: %g tl\n Vergi: %g tl \n", i, gelir, tvergi);
+    }
+  }
+  printf("\nYillik Gelir: %g tl\n", gelir);
+  printf("Yillik Vergi: %g tl", tvergi);
+  return 0;
+}
+{% endhighlight %}
+<p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/ornek22" isim="Tıkla Test ET!" %} </p>
+
+***
+
+<a name="ornek23">`Örnek 23`</a><br>
+Girilen harf notuna göre geçme durumunu gösteren kod
+{% highlight c %}
+#include <stdio.h>
+
+int main(void) {
+  char grade;
+  printf("Harf notu girin:");
+  scanf("%c",&grade);
+  switch(grade){
+    case 'A':
+    case 'B':
+    case 'C': printf("Gecti");
+    break;
+    case 'D': printf("Kosullu gecti");
+    break;
+    case 'F': printf("Kaldi");
+    break;
+    default: printf("Gecerli bir harf girilmedi");
+  }
+  return 0;
+}
+{% endhighlight %}
+<p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/ornek23" isim="Tıkla Test ET!" %} </p>
+
+***
+
+<a name="ornek24">`Örnek 24`</a><br>
+Girilen süreye göre seçilen taşıtın ücretlerini hesplayan kod
+{% highlight c %}
+#include <stdio.h>
+
+int main(void) {
+  char tur;
+  int saat, ucret;
+  printf("Otobus icin: o\nkamyonet icin: k\nmotosiklet icin: m\n >>>");
+  scanf("%c",&tur);
+  printf("Sure\n >>>");
+  scanf("%d",&saat);
+  switch(tur){
+    case 'o': 
+    ucret = 30;
+    printf("Otobus sectiniz \n");
+    printf("Odeneck ucret: %d", ucret*saat);
+    break;
+    case 'k': 
+    printf("Kamyonet sectiniz \n");
+    ucret = 20;
+    printf("Odeneck ucret: %d", ucret*saat);
+    break;
+    case 'm': 
+    printf("Motosiklet sectiniz \n");
+    ucret = 10;
+    printf("Odeneck ucret: %d", ucret*saat);
+    break;
+    default: printf("Yanlis arac kodu girdiniz");
+  }
+  return 0;
+}
+{% endhighlight %}
+<p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/ornek24" isim="Tıkla Test ET!" %} </p>
+
+***
+
+<a name="ornek25">`Örnek 25`</a><br>
+Switch-case örneği
+{% highlight c %}
+#include <stdio.h>
+
+int main(void){
+     char takim;
+     printf("Lutfen bir karakter (b,f,g) giriniz:");
+
+     scanf("%c", &takim);
+     switch (takim){
+       case 'f':
+          printf("fenerbahce\n");
+          break;
+       case 'b':
+          printf("besiktas\n");
+          break;
+       case 'g':
+          printf("galatasaray\n");
+          break;
+       default:
+          printf("b,f,g karakterlerinden birisini girmediniz\n");
+          break;
+     }
+  return 0;
+}
+{% endhighlight %}
+<p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/ornek25" isim="Tıkla Test ET!" %} </p>
+
+***
+
+<a name="ornek26">`Örnek 26`</a><br>
+10 elemanlı bir dizi oluşturup,  tek sayıları bu diziye ekleyen kod.
+{% highlight c %}
+#include <stdio.h>
+
+int main(void) {
+int n[10];
+int j, i;
+for (i= 0; i<10; i++){
+  n[i] = 2*i+1;
+}
+for (j=0; j<10; j++){
+  printf("Element %d = %d\n", j, n[j]);
+}
+  return 0;
+}
+{% endhighlight %}
+<p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/ornek26" isim="Tıkla Test ET!" %} </p>
+
+***
+
+<a name="ornek27">`Örnek 27`</a><br>
+100'den 110'a kadar sayıları bir diziye, karelerini farklı bir diziye  ekleyen daha sonra bu dizilerin elemanlarını yazdıran yazdıran kod
+{% highlight c %}
+#include <stdio.h>
+
+int main(void) {
+int n[10];
+int m[10];
+int j, i;
+for (i= 0; i<=10; i++){
+  n[i] = i+100;
+  m[i] = (i+100)*(i+100);
+}
+
+for (j=0; j<=10; j++){
+  printf("Dizi:  %d\n",  n[j]);
+  printf("Karesi: %d\n\n",  m[j]);
+}
+  return 0;
+}
+{% endhighlight %}
+<p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/ornek27" isim="Tıkla Test ET!" %} </p>
+
+***
+
+<a name="ornek28">`Örnek 28`</a><br>
+ilk 10 asal sayiyi diziye  ekleyen kod
+{% highlight c %}
+#include <stdio.h>
+ 
+int main(void){
+    int i, j, k =0;
+    int tf = 0;
+    int n[10];
+
+    for(i=2; i<200; i++){
+        for(j=1;j<=i;j++){
+            if(i%j==0){
+                tf++;
+            }
+        }
+            if(tf == 2){
+                tf=i;
+                printf("%d. asal sayı: %d \n", k+1, tf);
+                n[k] = tf;
+                k+=1;
+                if (k == 10){
+                    break;
+                }
+              }
+        tf=0;
+    }
+    return 0;
+     
+}
+{% endhighlight %}
+<p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/ornek28" isim="Tıkla Test ET!" %} </p>
+
+***
+
+<a name="ornek29">`Örnek 29`</a><br>
+İki boyutlu dizi örneği
+{% highlight c %}
+#include <stdio.h>
+
+int main(void) {
+int n[10][2];
+
+int j, i;
+for (i= 0; i<10; i++){
+  for (j=0; j<2; j++){
+  if (j){
+    n[i][j] = (i+100)*(i+100);
+  }
+  else{
+    n[i][j] = 100+i;
+  }
+    printf("[%d][%d] : %d\n", i,j, n[i][j]);
+  }
+}
+ 
+  return 0;
+}
+{% endhighlight %}
+<p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/ornek29" isim="Tıkla Test ET!" %} </p>
+
+***
+
+<a name="ornek30">`Örnek 30`</a><br>
+İki boyutlu dizi örneği 2
+{% highlight c %}
+#include <stdio.h>
+
+int main(void) {
+int n[10][3];
+
+int j, i;
+for (i= 0; i<10; i++){
+  for (j=0; j<3; j++){
+  if (j ==0){
+    n[i][j] = 100+i; 
+  }
+  else if(j==1){
+    n[i][j] = (i+100)*(i+100);
+  }
+  else{
+    n[i][j] = (i+100)*(i+100)*(i+100);
+  }
+   printf("n[%d][%d] = %d\n", i, j, n[i][j]);
+  }
+}
+  return 0;
+}
+{% endhighlight %}
+<p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/ornek30" isim="Tıkla Test ET!" %} </p>
+
+***
+
+<a name="ornek31">`Örnek 31`</a><br>
+Bir kelimenin tersten yazılışını veren kod
+{% highlight c %}
+#include <stdio.h>
+#include <string.h>
+
+int main(void) {
+  char kelime[] = "merhaba";
+  for (int i=strlen(kelime); i>=0; i--){
+    printf("%c",kelime[i]);
+  }
+  return 0;
+}
+{% endhighlight %}
+<p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/ornek31" isim="Tıkla Test ET!" %} </p>
+
+
+***
+
+<a name="ornek32">`Örnek 32`</a><br>
+Bir değişkenin değerini ve adresin yazdıran kod (işaretçi örneği)
+{% highlight c %}
+#include <stdio.h>
+
+int main(void) {
+  int var = 21;
+  int *ip;
+  ip = &var;
+  printf("var degiskenin adresi: %p\n", &var);
+  printf("ip işaretçi adresi: %p\n",ip);
+  printf("var degiskenin degeri: %d\n",*ip);
+  return 0;
+}
+
+{% endhighlight %}
+<p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/ornek32" isim="Tıkla Test ET!" %} </p>
+
+***
+
+<a name="ornek33">`Örnek 33`</a><br>
+Bir değişkenin değerini işaretçi yardımıyda bastıran-değiştiren kod 
+{% highlight c %}
+#include <stdio.h>
+int main()
+{
+   int *pc, c;
+   
+   c = 22;
+   printf("c degisken adresi: %p\n", &c);
+   printf("c degisken degeri: %d\n\n", c);
+   
+   pc = &c;
+   printf("pc isaretci(pointer) adresi: %p\n", pc);
+   printf("pc isaretci(pointer) icerigi: %d\n\n", *pc);
+   
+   c = 11;
+   printf("pc isaretci(pointer) adresi: %p\n", pc);
+   printf("pc isaretci(pointer) icerigi: %d\n\n", *pc);
+   
+   *pc = 2;
+   printf("c degisken adresi: %p\n", &c);
+   printf("c degisken degeri: %d\n\n", c);
+   return 0;
+}
+{% endhighlight %}
+<p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/ornek33" isim="Tıkla Test ET!" %} </p>
+
+***
+
+<a name="ornek34">`Örnek 34`</a><br>
+Özyinelemeli (recursive) fonksiyon ile faktöriyel hesaplama
+{% highlight c %}
+#include<stdio.h>
+
+int fact(int n);
+
+int main(void){
+    int sayi;
+    printf("Faktoriyeli hesaplanacak sayi:");
+    scanf("%d",&sayi);
+    printf("%d! = %d", sayi, fact(sayi));
+    return 0;
+    }
+
+int fact(int n){
+  int sonuc = (n)? n*fact(n-1): 1;
+  return sonuc;
+    }
+{% endhighlight %}
+<p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/ornek34" isim="Tıkla Test ET!" %} </p>
+
+***
+
+<a name="ornek35">`Örnek 35`</a><br>
+Bir cümledeki kelimeleri sondan başlayarak yazdıran kod
+{% highlight c %}
+#include <stdio.h>
+#include <string.h>
+
+int main(void) {
+  char cumle[] = "Kiyiya vurmadikları surece, baliklar suyun farkinda degildirler";
+
+  for (int i=strlen(cumle); i >= 0; i--){
+    if (cumle[i] == ' '){
+      cumle[i] = '\0';
+      printf(" %s", &cumle[i]+1);
+    }
+  }
+  printf(" %s",cumle);
+  return 0;
+}
+{% endhighlight %}
+<p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/ornek35" isim="Tıkla Test ET!" %} </p>
+<br>
+
+***
+
+<a name="ornek36">`Örnek 36`</a><br>
+Öğrencinin adını, soyadını ve numarasını tutan struct yapısı
+{% highlight c %}
+#include <stdio.h>
+#include <string.h>
+ 
+struct ogrenci {
+   char  isim[50];
+   char  soyad[50];
+   int   numara;
+};
+ 
+int main(void) {
+
+   struct ogrenci ogrenci1;
+  
+   strcpy( ogrenci1.isim, "ozkan");
+   strcpy( ogrenci1.soyad, "celik");;
+   ogrenci1.numara = 418;
+
+   printf( "Ogrenci ismi : %s\n", ogrenci1.isim);
+   printf( "Ogrenci Soyadi : %s\n", ogrenci1.soyad);
+   printf( "Ogrenci numarası : %d\n", ogrenci1.numara);
+
+   return 0;
+}
+{% endhighlight %}
+<p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/ornek36" isim="Tıkla Test ET!" %} </p>
+<br>
+
+***
+
+<a name="ornek37">`Örnek 37`</a><br>
+Tanımlanan struct elemanlarının herhangi bir sıradaya göre başlatılmasını sağlamak.
+{% highlight c %}
+#include <stdio.h>
+
+struct Point {
+   int x, y, z;
+};
+ 
+int main( ) {
+  struct Point p1 = {.y = 0, .z = 1, .x = 2};
+  struct Point p2 = {.y = 6, .z = 7};
+
+   printf( "%d %d %d\n", p1.x, p1.y, p1.z);
+   printf( "%d %d\n", p2.y, p2.z);
+
+   return 0;
+}
+{% endhighlight %}
+<p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/ornek37" isim="Tıkla Test ET!" %} </p>
+<br>
+
+***
+
+<a name="ornek38">`Örnek 38`</a><br>
+Fonksiyon tanımlanarak bir sayının pozitif-negatif veya işaretsiz olma durumunu kontrol eden kod.
+{% highlight c %}
+#include <stdio.h>
+
+int sorgu(int x);
+int main(void) {
+  int sayi;
+  printf("Bir sayi girin:");
+  scanf("%d", &sayi);
+  int sonuc = sorgu(sayi);
+  if (sonuc == 0)
+    printf("Sayi 0\n");
+  else if (sonuc == -1)
+    printf("Sayi negatif\n");
+  else if (sonuc == 1)
+    printf("sayi pozitif\n");
+  return 0;
+}
+
+int sorgu(int x){
+  if (x==0)
+    return 0;
+  else if (x<0)
+    return -1;
+  else
+    return 1;
+}
+{% endhighlight %}
+<p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/ornek38" isim="Tıkla Test ET!" %} </p>
+<br>
+
+***
+
+<a name="ornek39">`Örnek 39`</a><br>
+Fonksiyon kullanarak struct verilerini yazdırmak
+{% highlight c %}
+#include <stdio.h>
+#include <string.h>
+ 
+struct Kitaplar {
+   char  isim[50];
+   char  yazar[50];
+   char  konu[100];
+   int   barkod;
+};
+
+/* Fonksiyon prototipi tanimlama */
+void kitaplariYazdir( struct Kitaplar kitap );
+
+int main(void){
+
+   struct Kitaplar Kitap1; /* Kitap1 adli Kitabı Deklare etme */
+   struct Kitaplar Kitap2; /* Kitap2 adli Kitabı Deklare etme */
+ 
+   /* Kitap1 özellikleri */
+   strcpy( Kitap1.isim, "C Programlama Dili");
+   strcpy( Kitap1.yazar, "Dennis Ritchie"); 
+   strcpy( Kitap1.konu, "C Programlama Egitimi");
+   Kitap1.barkod = 65657098;
+
+   /* Kitap2 özellikleri */
+   strcpy( Kitap2.isim, "Python3");
+   strcpy( Kitap2.yazar, "Firat Ozgul"); 
+   strcpy( Kitap2.konu, "Python Programlama Egitimi");
+   Kitap2.barkod = 6495407;
+ 
+   /* Kitap1 bilgilerini yazdir */
+   kitaplariYazdir( Kitap1 );
+
+   /* Kitap2 bilgilerini yazdir */
+   kitaplariYazdir( Kitap2 );
+
+   return 0;
+}
+
+void kitaplariYazdir( struct Kitaplar kitap ) {
+
+   printf( "Kitap isimi : %s\n", kitap.isim);
+   printf( "Kitabin yazari : %s\n", kitap.yazar);
+   printf( "Kitabin konusu : %s\n", kitap.konu);
+   printf( "Kitabin barkod kodu : %d\n", kitap.barkod);
+}
+{% endhighlight %}
+<p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/ornek39" isim="Tıkla Test ET!" %} </p>
+<br>
+
+{% include note.html not=" Bu makale güncellenecek." %}
+<br>
+
+[21]: https://repl.it/@celikozkan/ornek21
+[22]: https://repl.it/@celikozkan/ornek22
+[23]: https://repl.it/@celikozkan/ornek23
+[24]: https://repl.it/@celikozkan/ornek24
+[25]: https://repl.it/@celikozkan/ornek25
+[26]: https://repl.it/@celikozkan/ornek26
+[27]: https://repl.it/@celikozkan/ornek27
+[28]: https://repl.it/@celikozkan/ornek28
+[29]: https://repl.it/@celikozkan/ornek29
+[30]: https://repl.it/@celikozkan/ornek30
+[31]: https://repl.it/@celikozkan/ornek31
+[32]: https://repl.it/@celikozkan/ornek32
+[33]: https://repl.it/@celikozkan/ornek33
+[34]: https://repl.it/@celikozkan/ornek34
+[35]: https://repl.it/@celikozkan/ornek35
+[36]: https://repl.it/@celikozkan/ornek36
+[37]: https://repl.it/@celikozkan/ornek37
+[38]: https://repl.it/@celikozkan/ornek38
+[39]: https://repl.it/@celikozkan/ornek39
+[40]: https://repl.it/@celikozkan/ornek40
+
