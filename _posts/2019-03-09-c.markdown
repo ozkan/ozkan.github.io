@@ -499,7 +499,7 @@ int main(void){
 {% endhighlight %}
 <p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/ornek19" isim="Tıkla Test ET!" %} </p>
 
-***
+<hr style="border: 2px solid #e7e9ee">
 
 
 <a name="ornek20">`Örnek 20`</a><br>
