@@ -7,7 +7,7 @@ img: liquid.png
 tags: [Liquid, Jekyll]
 ---
 
-
+{% raw %}
 ## Liquid Nedir?
 
 Liquid, Shopify tarafından özel gereksinimler için Ruby ile yazılmış açık kaynaklı bir şablon dilidir. Web uygulamalarında içeriği dinamik olarak yüklemek için kullanılır.
@@ -70,3 +70,4 @@ Liquid'daki diğer filtreleri  yazının devamında göreceğiz.
 
 Güncellenecek
 
+{% endraw %}
