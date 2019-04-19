@@ -21,6 +21,7 @@ Liquid, Shopify tarafından özel gereksinimler için Ruby ile yazılmış açı
  Jekyll, verileri dinamik olarak yüklemek, sitedeki verilere erişmek ve koşullu işlemler gerçekleştirebilmek için Luquit kullanır.
 
 Liquid oldukça  basit ve kapsamlı bir dildir. Örnek bir kod parçası:
+
 ```
 {% if sayi > 1 %}
     sayi değeri pazitif
