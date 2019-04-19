@@ -8,8 +8,8 @@ tags: [Liquid, Jekyll]
 ---
 
 {% raw %}
-## Liquid Nedir?
 
+## Liquid Nedir?
 Liquid, Shopify tarafından özel gereksinimler için Ruby ile yazılmış açık kaynaklı bir şablon dilidir. Web uygulamalarında içeriği dinamik olarak yüklemek için kullanılır.
 [Github/Liquid](https://github.com/Shopify/liquid)
 
@@ -50,7 +50,9 @@ Nesneler, bir sayfaya dinamik veri üretmek için kullanılır. Çift küme para
 ```
 {{page.title}}
 ```
+
 Yukarıdaki kod bu web sayfasında eklenirse şöyle bir çıktı verecektir.
+
 ```
 Jekyll-Liquid Yapısı
 ```
@@ -66,8 +68,6 @@ JEKYLL-LIQUID YAPISI
 upcase filtresi aldığı bütün karakterleri büyük harfe çevirir.
 Liquid'daki diğer filtreleri  yazının devamında göreceğiz.
 
-
-
-Güncellenecek
+Güncellenecek..
 
 {% endraw %}
