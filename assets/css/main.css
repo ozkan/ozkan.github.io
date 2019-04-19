@@ -1330,12 +1330,13 @@ a.newer-posts:hover {
   margin-bottom: 0.5%;
   -webkit-transition: all .3s;
   transition: all .3s;
+  border-radius: 20px;
 }
 
 .recent-box .recent-list .recent-item span {
   position: absolute;
   font-size: 14px;
-  left: 2.5%;
+  left: 5%;
   bottom: 2.5%;
   /*background-color: #ecf0f1;*/
   color: #fff;
@@ -1552,10 +1553,11 @@ a.newer-posts:hover {
   .recent-box .recent-list .recent-item span {
     position: absolute;
     font-size: 12px;
-    left: 2.5%;
+    left: 5%;
     bottom: 2.5%;
     color: #fff;
     text-align: center;
+    border-radius: 20px;
 }
 
 }
@@ -1628,11 +1630,12 @@ a.newer-posts:hover {
     height: 150px;
     margin-left: 0.5%;
     margin-bottom: 0.5%;
+    border-radius: 20px;
   }
   .recent-box .recent-list .recent-item span {
     position: absolute;
     font-size: 12px;
-    left: 2.5%;
+    left: 5%;
     bottom: 2.5%;
     color: #fff;
     text-align: center;
@@ -1675,11 +1678,12 @@ a.newer-posts:hover {
     height: 150px;
     margin-left: 0.5%;
     margin-bottom: 0.5%;
+    border-radius: 20px;
   }
   .recent-box .recent-list .recent-item span {
     position: absolute;
     font-size: 12px;
-    left: 2.5%;
+    left: 5%;
     bottom: 2.5%;
     color: #fff;
     text-align: center;
