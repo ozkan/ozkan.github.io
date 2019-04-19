@@ -7,6 +7,7 @@ img: liquid.png
 tags: [Liquid, Jekyll]
 ---
 
+
 {% raw %}
 
 ## Liquid Nedir?
