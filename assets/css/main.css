@@ -1336,9 +1336,9 @@ a.newer-posts:hover {
   position: absolute;
   font-size: 14px;
   left: 2.5%;
-  bottom: 1%;
+  bottom: 2.5%;
   /*background-color: #ecf0f1;*/
-  color: #311e3e;
+  color: #fff;
   text-align: center;
 }
 
@@ -1551,8 +1551,8 @@ a.newer-posts:hover {
     position: absolute;
     font-size: 12px;
     left: 2.5%;
-    bottom: 1%;
-    color: #311e3e;
+    bottom: 2.5%;
+    color: #fff;
     text-align: center;
 }
 
@@ -1631,8 +1631,8 @@ a.newer-posts:hover {
     position: absolute;
     font-size: 12px;
     left: 2.5%;
-    bottom: 1%;
-    color: #311e3e;
+    bottom: 2.5%;
+    color: #fff;
     text-align: center;
 }
 }
@@ -1678,8 +1678,8 @@ a.newer-posts:hover {
     position: absolute;
     font-size: 12px;
     left: 2.5%;
-    bottom: 1%;
-    color: #311e3e;
+    bottom: 2.5%;
+    color: #fff;
     text-align: center;
 }
 
