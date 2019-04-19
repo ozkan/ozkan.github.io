@@ -38,9 +38,10 @@ Liquid oldukça  basit ve kapsamlı bir dildir. Örnek bir kod parçası:
 
 Liqiut'in  üç temel yapıdan oluşur, bunlar:
 
-| Etiketler (Tags) | Nesneler(Object) | Filtreler(Filters) |
+
+| Etiketler (Tags) | Nesneler(Objects) | Filtreler(Filters) |      
 |:----------------:|:--------------:|:------------------:|
-|       {% %}      |      {{ }}     |      {{  | }}      | 
+|       {% %}      |      {{ }}     |      {{  | }}      |   
 
 
 ## Etiketler (Tags)
