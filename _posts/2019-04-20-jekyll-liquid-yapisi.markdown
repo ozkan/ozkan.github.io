@@ -8,7 +8,7 @@ tags: [Liquid, Jekyll]
 ---
 
 
-{% raw %}
+
 
 ## Liquid Nedir?
 Liquid, Shopify tarafından özel gereksinimler için Ruby ile yazılmış açık kaynaklı bir şablon dilidir. Web uygulamalarında içeriği dinamik olarak yüklemek için kullanılır.
@@ -22,6 +22,8 @@ Liquid, Shopify tarafından özel gereksinimler için Ruby ile yazılmış açı
 
 Liquid oldukça  basit ve kapsamlı bir dildir. Örnek bir kod parçası:
 
+{% raw %}
+
 ```
 {% if sayi > 1 %}
     sayi değeri pazitif
@@ -31,6 +33,8 @@ Liquid oldukça  basit ve kapsamlı bir dildir. Örnek bir kod parçası:
     sayi değeri negatif
 {% endif %}
 ```
+
+{% endraw %}
 
 Liqiut'in  üç temel yapıdan oluşur, bunlar:
 
@@ -49,9 +53,12 @@ Koşullu ifadelerin yanı sıra, etiketler ayrıca _includes klasörlerinden bir
 
 Nesneler, bir sayfaya dinamik veri üretmek için kullanılır. Çift küme parantezi içerinede tanımlanan yapılır web arayüzünde gösterilecek olan içerikler için kullanılır. Örneğin Jakyll'da sayfa başlığını şu şekilde alabiliriz.
 
+{% raw %}
+
 ```
 {{page.title}}
 ```
+{% endraw %}
 
 Yukarıdaki kod bu web sayfasında eklenirse şöyle bir çıktı verecektir.
 
@@ -61,9 +68,15 @@ Jekyll-Liquid Yapısı
 
 ## Filtreler (Filters)
 Filtreler çıktıları değiştirmek için kullanılır. Nesnelerle birlikte kullanılır. Basit bir örnek aşağıda gösterilmiştir.
+
+{% raw %}
+
 ```
 {{ page.title | upcase }}
 ```
+
+{% endraw %}
+
 Sonuç:
 JEKYLL-LIQUID YAPISI
 
@@ -72,4 +85,3 @@ Liquid'daki diğer filtreleri  yazının devamında göreceğiz.
 
 Güncellenecek..
 
-{% endraw %}
