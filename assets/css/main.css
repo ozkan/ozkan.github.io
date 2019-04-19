@@ -1304,7 +1304,7 @@ a.newer-posts:hover {
           transform: translateX(-5px);
 }
 
-/* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
+
 /* - - - - - - - - - - recent post - - - - - - - - - - */
 
 .recent-box {
@@ -1345,6 +1345,8 @@ a.newer-posts:hover {
 .recent-box .recent-list .recent-item:hover {
   opacity: 0.8;
 }
+
+/* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
 .wrap-content {
   padding: 20px;
 }
