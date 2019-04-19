@@ -77,6 +77,7 @@ hr {
   /* 1 */
   overflow: visible;
   /* 2 */
+  border: 1px solid #e7e9ee;
 }
 
 /**
@@ -1265,8 +1266,9 @@ footer .copyright {
 
 .post .post-content .post-title {
   margin: 0 0 10px;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
+  text-transform: capitalize;
 }
 
 .post .post-content .post-title a {
