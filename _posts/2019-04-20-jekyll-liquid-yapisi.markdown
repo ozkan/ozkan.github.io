@@ -21,10 +21,8 @@ Liquid, Shopify tarafından özel gereksinimler için Ruby ile yazılmış açı
 
 Liquid oldukça  basit ve kapsamlı bir dildir. Örnek bir kod parçası:
 
-{% raw %}
 
-```
-
+{% highlight %}
 {% if sayi > 1 %}
     sayi değeri pazitif
 {% elsif  sayi == 0 %}
@@ -32,10 +30,7 @@ Liquid oldukça  basit ve kapsamlı bir dildir. Örnek bir kod parçası:
 {% else %}
     sayi değeri negatif
 {% endif %}
-
-```
-
-{% endraw %}
+{% endhighlight %}
 
 Liqiut'in  üç temel yapıdan oluşur, bunlar:
 
@@ -55,39 +50,31 @@ Koşullu ifadelerin yanı sıra, etiketler ayrıca _includes klasörlerinden bir
 
 Nesneler, bir sayfaya dinamik veri üretmek için kullanılır. Çift küme parantezi içerinede tanımlanan yapılır web arayüzünde gösterilecek olan içerikler için kullanılır. Örneğin Jakyll'da sayfa başlığını şu şekilde alabiliriz.
 
-{% raw %}
-
-```
+{% highlight %}
 
 {{page.title}}
 
-```
-{% endraw %}
+{% endhighlight %}
 
 Yukarıdaki kod bu web sayfasında eklenirse şöyle bir çıktı verecektir.
 
 ```
-
 Jekyll-Liquid Yapısı
-
 ```
 
 ## Filtreler (Filters)
 
 Filtreler çıktıları değiştirmek için kullanılır. Nesnelerle birlikte kullanılır. Basit bir örnek aşağıda gösterilmiştir.
 
-{% raw %}
-
-```
-
+{% highlight %}
 {{ page.title | upcase }}
-
-```
-
-{% endraw %}
+{% endhighlight %}
 
 Sonuç:
+
+```
 JEKYLL-LIQUID YAPISI
+```
 
 upcase filtresi aldığı bütün karakterleri büyük harfe çevirir.
 Liquid'daki diğer filtreleri  yazının devamında göreceğiz.
