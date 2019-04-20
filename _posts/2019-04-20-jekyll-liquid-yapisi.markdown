@@ -23,6 +23,7 @@ Liquid oldukça  basit ve kapsamlı bir dildir. Örnek bir kod parçası:
 
 
 {% highlight %}
+{% raw %}
 {% if sayi > 1 %}
     sayi değeri pazitif
 {% elsif  sayi == 0 %}
@@ -30,10 +31,17 @@ Liquid oldukça  basit ve kapsamlı bir dildir. Örnek bir kod parçası:
 {% else %}
     sayi değeri negatif
 {% endif %}
+{% endraw %}
 {% endhighlight %}
 
 Liqiut'in  üç temel yapıdan oluşur, bunlar:
+{% raw %}
 
+| Etiketler (Tags)  | Nesneler(Objects) | Filtreler(Filters) |
+|:----------------:|:-----------------:|:------------------:|
+|       {% %}      |      {{ }}         |      {{  \| }}     |
+
+{% endraw %}
 
 ## Etiketler (Tags)
 
@@ -46,9 +54,9 @@ Koşullu ifadelerin yanı sıra, etiketler ayrıca _includes klasörlerinden bir
 Nesneler, bir sayfaya dinamik veri üretmek için kullanılır. Çift küme parantezi içerinede tanımlanan yapılır web arayüzünde gösterilecek olan içerikler için kullanılır. Örneğin Jakyll'da sayfa başlığını şu şekilde alabiliriz.
 
 {% highlight %}
-
+{% raw %}
 {{page.title}}
-
+{% endraw %}
 {% endhighlight %}
 
 Yukarıdaki kod bu web sayfasında eklenirse şöyle bir çıktı verecektir.
@@ -62,7 +70,9 @@ Jekyll-Liquid Yapısı
 Filtreler çıktıları değiştirmek için kullanılır. Nesnelerle birlikte kullanılır. Basit bir örnek aşağıda gösterilmiştir.
 
 {% highlight %}
+{% raw %}
 {{ page.title | upcase }}
+{% endraw %}
 {% endhighlight %}
 
 Sonuç:
