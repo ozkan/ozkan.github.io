@@ -38,6 +38,7 @@ Liqiut'in  üç temel yapıdan oluşur, bunlar:
 | Etiketler (Tags)  | Nesneler(Objects) | Filtreler(Filters) |
 |:----------------:|:-----------------:|:------------------:|
 |       {% %}      |      {{ }}         |      {{  \| }}     |
+
 {% endraw %}
 
 ## Etiketler (Tags)
