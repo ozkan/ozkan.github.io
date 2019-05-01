@@ -37,6 +37,7 @@ plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-random
 
 jekyll-mentions:
   base_url: https://twitter.com
