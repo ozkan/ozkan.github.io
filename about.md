@@ -10,6 +10,8 @@ disqus_disabled: true
 permalink: /about/
 
 ---
+
+{% assign colors = 'red|green|blue|yellow|orange' | split: '|' %}
 {% for i in (1..100) %}
-  {{ i }} - {{ forloop.index | random_number: 0, 10 }}
+  {{ i }} - {{ forloop.index | random_item: colors }}
 {% endfor %}
