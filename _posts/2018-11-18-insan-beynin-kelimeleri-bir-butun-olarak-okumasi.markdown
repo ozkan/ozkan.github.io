@@ -12,8 +12,6 @@ Cambridge Üniversitesi'nde yapılmış bir araştırmanın sonucuna göre,
 > Geirsi taammen kamradaşır ve ynie de surosnuz olraak okubanilir. Buunn sbeebi isnan benyinin her hafri tek tek dieğl kemileelri bir
 > btüün oralak omukadısır.
 
-
-
 Python ile bu cümleleri otomatik oluşturun:
     
 ```python
@@ -39,8 +37,4 @@ print(karistir(veri))
 #ozkan
 ```
 
-<p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/insan-beyni-kelime" isim="Tıkla Test ET!" %} </p>`
-
-
-
-
+<p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/insan-beyni-kelime" isim="Tıkla Test ET!" %} </p>
