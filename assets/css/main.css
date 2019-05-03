@@ -1048,6 +1048,9 @@ table tfoot td {
   height: 100%;
   padding: 20px 10px;
   background-color: #10171e;
+  -webkit-box-shadow: 0 0 6px 4px black;
+	-moz-box-shadow: 0 0 6px 4px black;
+	box-shadow: 0 0 8px 2px black;
 }
 
 .about {
