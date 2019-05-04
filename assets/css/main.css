@@ -437,6 +437,28 @@ template {
   display: none;
 }
 
+
+/* Tikla Test Et Butonu */
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #b7c5d3;
+  
+}
+.info {
+  color: dodgerblue;
+}
+/* Tikla Test Et Butonu  ---son */
+
+
 .highlight {
   background-color: #10171e;
   -webkit-border-radius: 3px;
@@ -4441,9 +4463,6 @@ table tfoot td {
   height: 100%;
   padding: 20px 10px;
   background-color: #10171e;
-  /*background-size: 100%;
-  *background-repeat: no-repeat;
-  *background-image: url("https://66.media.tumblr.com/77f0ea97b525c668b236f6c39f7ae30f/tumblr_inline_mmtez0hiWT1qz4rgp.gif");*/
 }
 
 .about {
