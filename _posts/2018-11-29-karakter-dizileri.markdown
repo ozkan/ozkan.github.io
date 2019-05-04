@@ -99,7 +99,7 @@ dir(str)
 
 ***
 
-> `isalnum()` Karakter dizisinin, sadece harflerden ve/veya sayılardan oluşup oluşmadığını sorgular.
+`isalnum()` Karakter dizisinin, sadece harflerden ve/veya sayılardan oluşup oluşmadığını sorgular.
 
 {% highlight python %}
 "1923Türkiye".isalnum()
@@ -117,7 +117,7 @@ dir(str)
 
 ***
 
-> `isalpha()` Karakter dizisinin yanlızca harflerden oluşup oluşmadığını sorgular.
+`isalpha()` Karakter dizisinin yanlızca harflerden oluşup oluşmadığını sorgular.
 
 {% highlight python %}
 "python".isalpha()
@@ -135,7 +135,7 @@ dir(str)
 
 ***
 
-> `isdecimal()` Karakter dizisi içindeki sayının ondalık sayı cinsinden olup olmadığını sorgular.
+`isdecimal()` Karakter dizisi içindeki sayının ondalık sayı cinsinden olup olmadığını sorgular.
 
 {% highlight python %}
 "1923".isdecimal() 
@@ -153,7 +153,7 @@ dir(str)
 
 ***
 
-> `isdigit()`  Karakter dizisinin sadece sayılarda oluşup oluşmadığını sorgular.
+`isdigit()`  Karakter dizisinin sadece sayılarda oluşup oluşmadığını sorgular.
 > True dönderebilmesi için, sayı değerli karakter dizilersinin bir tam sayıdan oluşması gerekiyor.
 
 {% highlight python %}
@@ -172,7 +172,7 @@ dir(str)
 
 ***
 
-> `isidentifier()` Karakter dizisi içindeki karakterin bir tanımlayıcı olarak kulanılıp kullanımayacağını sorgular.
+`isidentifier()` Karakter dizisi içindeki karakterin bir tanımlayıcı olarak kulanılıp kullanımayacağını sorgular.
 > örneğin fonksiyonlar ve değişkenleri tanımlarken, bunları sayı ile başlatamıyoruz.
 > Yani 1abc şeklinde bir değişken tanımlayamayız. 
 > Bunu bir de isidentifier() methoduna soralım, tanımlayabiliyor muyuz diye.
@@ -185,7 +185,7 @@ dir(str)
 
 ***
 
-> `islower()` Karakter dizisinin tamamen küçük harflerden oluşup oluşmadığını sorgular.
+`islower()` Karakter dizisinin tamamen küçük harflerden oluşup oluşmadığını sorgular.
 
 {% highlight python %}
 "python".islower()
@@ -195,7 +195,7 @@ dir(str)
 
 ***
 
-> `isnumeric()` Karakter dizisinin sadece sayılardan oluşup oluşmadığını sorgular.
+`isnumeric()` Karakter dizisinin sadece sayılardan oluşup oluşmadığını sorgular.
 
 {% highlight python %}
 "2019".isnumeric()
@@ -205,7 +205,7 @@ dir(str)
 
 ***
 
-> `isprintable()` Karakter dizsin yazdırılmayan bir karakter barındırıp barındırmadığını sorgular. 
+`isprintable()` Karakter dizsin yazdırılmayan bir karakter barındırıp barındırmadığını sorgular. 
 > örneğin "\n", "\t" gibi kaçış dizileri basılamayan (yazılmayan) karakterlerdir.
 
 {% highlight python %}
@@ -232,7 +232,7 @@ dir(str)
 
 ***
 
-> `isspace()` Karakter dizisinin sadece boşluk karakterinden oluşup oluşmadığını sorgular.
+`isspace()` Karakter dizisinin sadece boşluk karakterinden oluşup oluşmadığını sorgular.
 
 {% highlight python %}
 "  ".isspace()
@@ -250,7 +250,7 @@ dir(str)
 
 ***
 
-> `istitle()` Karakter dizisindeki kelimelerin baş harflerinin büyük harf olup olmadığını sorgular. 
+`istitle()` Karakter dizisindeki kelimelerin baş harflerinin büyük harf olup olmadığını sorgular. 
 True dönderebilmesi için sorguladığı kelimelerdeki baş haflerinin büyük, geriye kalan diğer harflerin küçük olması gerekiyor.
 
 {% highlight python %}
@@ -268,7 +268,7 @@ True dönderebilmesi için sorguladığı kelimelerdeki baş haflerinin büyük,
 
 ***
 
-> `isupper()` Karakter dizisindeki bütün harflerin büyük harf olup olmadığını sorgular.
+`isupper()` Karakter dizisindeki bütün harflerin büyük harf olup olmadığını sorgular.
 
 {% highlight python %}
 "PYTHON".isupper() 
@@ -283,7 +283,7 @@ True dönderebilmesi için sorguladığı kelimelerdeki baş haflerinin büyük,
 **\>>>**  False
 
 ***
-> `endswith()` Karakter dizisinin parametre olarak verilen karakter ile bitip, bitmediğini sorgular.
+`endswith()` Karakter dizisinin parametre olarak verilen karakter ile bitip, bitmediğini sorgular.
 
 {% highlight python %}
 "python".endswith("n")
@@ -299,7 +299,7 @@ True dönderebilmesi için sorguladığı kelimelerdeki baş haflerinin büyük,
 
 ***
 
-> `capitalize()` Karakter dizilerinin yalnızca baş harfini büyütür.
+`capitalize()` Karakter dizilerinin yalnızca baş harfini büyütür.
 
 {% highlight python %}
 "python".capitalize()
@@ -317,7 +317,7 @@ True dönderebilmesi için sorguladığı kelimelerdeki baş haflerinin büyük,
 
 ***
 
-> `casefold()` Karakter dizilerindeki harflerin hepsini küçük harfe çevirir.
+`casefold()` Karakter dizilerindeki harflerin hepsini küçük harfe çevirir.
 
 {% highlight python %}
 "PYTHON".casefold()
@@ -327,7 +327,7 @@ True dönderebilmesi için sorguladığı kelimelerdeki baş haflerinin büyük,
 
 ***
 
-> `center()` Karakter dizilerini ortalar.
+`center()` Karakter dizilerini ortalar.
 > center() methoduna girilen parametre, karakter dizisinin kaç karakterlik bir yer kaplayacağını belirtir.
 
 {% highlight python %}
@@ -337,7 +337,7 @@ True dönderebilmesi için sorguladığı kelimelerdeki baş haflerinin büyük,
 **\>>>**  '  python  '
 ***
 
-> `ljust()` Karakter dizisini sola hizalar, bu işlemini yaparken karakterin sağına ekleme yaparak karakteri sola yaslar.
+`ljust()` Karakter dizisini sola hizalar, bu işlemini yaparken karakterin sağına ekleme yaparak karakteri sola yaslar.
 > İki tane parametre alır, ilk parametre toplam karakter uzunluğunu , ikinci parametre ise sağa eklenecek karakteri belirler.
 > Eğer ikinci parametreyi belirmezsek, hizalama işlemini yaparken boşluk karakterini kullanır.
 
@@ -357,7 +357,7 @@ True dönderebilmesi için sorguladığı kelimelerdeki baş haflerinin büyük,
 
 ***
 
-> `rjust()` Karakter dizisini sağa hizalar, bu işlemi yaparken karakterin soluna ekleme yaparak karakteri sağa yaslar.
+`rjust()` Karakter dizisini sağa hizalar, bu işlemi yaparken karakterin soluna ekleme yaparak karakteri sağa yaslar.
 > İki tane parametre alır, ilk parametre toplam karakter uzunluğunu , ikinci parametre ise sola eklenecek karakteri belirler.
 > Eğer ikinci parametreyi belirmezsek, hizalama yaparken boşluk karakterini kullanır.
 
@@ -376,7 +376,7 @@ True dönderebilmesi için sorguladığı kelimelerdeki baş haflerinin büyük,
 
 ***
 
-> `strip()` Parametresiz olarak kullanıldığında, karakter dizisinin sağında 
+`strip()` Parametresiz olarak kullanıldığında, karakter dizisinin sağında 
 > ve solunda bulunan boşluk karakteri ile kaçış dizilerini siler.
 > Parametre olarak bir karakter dizisi alır, girilen parametre karakter 
 > dizisinin sağında veya solunda var ise siler.
@@ -395,7 +395,7 @@ True dönderebilmesi için sorguladığı kelimelerdeki baş haflerinin büyük,
 
 ***
 
-> `lstrip()` Paremetre olarak girilen karakteri, karakter dizisinin sol 
+`lstrip()` Paremetre olarak girilen karakteri, karakter dizisinin sol 
 > tarafından kaldırır.
 > Eğer parametresiz olarak kullanılırsa, kaçış dizilerini (\n, \t) ve 
 > boşluk karakterini,  karakter dizisinin sol tarafından kaldırır.
@@ -420,7 +420,7 @@ True dönderebilmesi için sorguladığı kelimelerdeki baş haflerinin büyük,
 
 ***
 
-> `rstrip()` Paremetre olarak girilen karakteri, karakter dizisinin sağ 
+`rstrip()` Paremetre olarak girilen karakteri, karakter dizisinin sağ 
 > tarafından kaldırır.
 > Eğer parametresiz olarak kullanılırsa, kaçış dizilerini (\n, \t) ve 
 > boşluk karakterini,  karakter dizisinin sağ tarafından kaldırır.
@@ -439,7 +439,7 @@ True dönderebilmesi için sorguladığı kelimelerdeki baş haflerinin büyük,
 
 ***
 
-> `count()` Karakter dizisi içindeki belli bir karakterin kaç kez geçtiğini sorgular.
+`count()` Karakter dizisi içindeki belli bir karakterin kaç kez geçtiğini sorgular.
 
 {% highlight python %}
 "malatya".count("a")
@@ -449,7 +449,7 @@ True dönderebilmesi için sorguladığı kelimelerdeki baş haflerinin büyük,
 
 ***
 
-> `index()` Parametre olarak aldığı karakterin, karakter dizisi içinde kaçıncı sırada olduğunu sorgular.
+`index()` Parametre olarak aldığı karakterin, karakter dizisi içinde kaçıncı sırada olduğunu sorgular.
 > Eğer sorguladığımız karakter, karakter dizisinin içinde bulunmuyorsa Python bir hata mesajı gösterir. 
 > (ValueError: substring not found)
 
@@ -474,7 +474,7 @@ ValueError: substring not found
 
 ***
 
-> `rindex()` Parametre olarak aldığı karakterin, karakter dizisi içinde kaçıncı sırada olduğunu sağdan başlayarak sorgular.
+`rindex()` Parametre olarak aldığı karakterin, karakter dizisi içinde kaçıncı sırada olduğunu sağdan başlayarak sorgular.
 > Eğer sorguladığımız karakter, karakter dizisinin içinde bulunmuyorsa Python bir hata mesajı gösterir.
 
 {% highlight python %}
@@ -485,7 +485,7 @@ ValueError: substring not found
 
 ***
 
-> `find()` Parametre olarak aldığı karakterin, karakter dizisi içindeki konumunu sorgular.
+`find()` Parametre olarak aldığı karakterin, karakter dizisi içindeki konumunu sorgular.
 >
 > Eğer sorgulanan karakter, karakter dizisinin içinde yok ise   -1 değerini verir.
 
@@ -503,7 +503,7 @@ ValueError: substring not found
 
 ***
 
-> `rfind()` Parametre olarak aldığı karakterin, karakter dizisi içindeki konumunu sağdan başlayarak sorgular.
+`rfind()` Parametre olarak aldığı karakterin, karakter dizisi içindeki konumunu sağdan başlayarak sorgular.
 > Eğer aranan karakter dizinin içinde yok ise -1 değerini dönderir.
 
 {% highlight python %}
@@ -514,7 +514,7 @@ ValueError: substring not found
 
 ***
 
-> `split()` Parametresiz olarak kullanıldığında karakter dizisini boşluklardan bölerek, bir listeye ekler.
+`split()` Parametresiz olarak kullanıldığında karakter dizisini boşluklardan bölerek, bir listeye ekler.
 > split() Karakter dizisini soldan sağa doğru tarar. 
 > Parametresiz olarak kullanılırsa eğer, karakter dizisini boşluklardan böler.
 > İlk parametre ile hangi karakterlerden bölüneceği,
@@ -534,7 +534,7 @@ ValueError: substring not found
 
 ***
 
-> `rsplit()` Parametresiz olarak kullanıldığında karakter dizisini boşluklardan bölerek, bir listeye ekler.
+`rsplit()` Parametresiz olarak kullanıldığında karakter dizisini boşluklardan bölerek, bir listeye ekler.
 > rsplit() Karakter dizisini sağdan sola doğru tarar.
 > İlk parametre ile hangi karakterlerden bölüneceği,
 > ikinci parametre ile ise kaç kez bölüneceği belirtilir.
@@ -553,7 +553,7 @@ ValueError: substring not found
 
 ***
 
-> `splitlines()` Karakter dizisini satır başı karakterinden (" \n") ayırarak bir listeye ekler.
+`splitlines()` Karakter dizisini satır başı karakterinden (" \n") ayırarak bir listeye ekler.
 
 {% highlight python %}
 "Öğretmenler!\nCumhuriyet, fikren, ilmen, fennen, bedenen kuvvetli ve yüksek karakterli muhafızlar ister.\nYeni nesli bu özellik ve kabiliyette yetiştirmek sizin elinizdedir".splitlines()
@@ -565,7 +565,7 @@ ValueError: substring not found
 
 ***
 
-> `zfill()` Karakter dizisinin önüne sıfır ekleyerek sağa yaslar.
+`zfill()` Karakter dizisinin önüne sıfır ekleyerek sağa yaslar.
 
 {% highlight python %}
 "py".zfill(10)
@@ -575,7 +575,7 @@ ValueError: substring not found
 
 ***
 
-> `upper()` Karakter dizisindeki bütün harfleri büyütür.
+`upper()` Karakter dizisindeki bütün harfleri büyütür.
 
 {% highlight python %}
 "türkiye".upper()
@@ -585,7 +585,7 @@ ValueError: substring not found
 
 ***
 
-> `lower()` Karakter dizisindeki bütün harfleri küçük harflere çevirir.
+`lower()` Karakter dizisindeki bütün harfleri küçük harflere çevirir.
 
 {% highlight python %}
 "PYTHON".lower()
@@ -595,7 +595,7 @@ ValueError: substring not found
 
 ***
 
-> `swapcase()` Karakter dizisindeki büyük harfleri küçük harflere, küçük harfleri ise büyük harflere çevirir.
+`swapcase()` Karakter dizisindeki büyük harfleri küçük harflere, küçük harfleri ise büyük harflere çevirir.
 
 {% highlight python %}
 "PyThOn".swapcase()
@@ -605,7 +605,7 @@ ValueError: substring not found
 
 ***
 
-> `title()` Karakter dizisindeki bütün kelimelerin baş harflerini büyütür.
+`title()` Karakter dizisindeki bütün kelimelerin baş harflerini büyütür.
 
 {% highlight python %}
 "türk dil kurumu".title()
@@ -615,7 +615,7 @@ ValueError: substring not found
 
 ***
 
-> `expandtabs()` Karakter dizisi içindeki tab uzunluğunu genişletir.
+`expandtabs()` Karakter dizisi içindeki tab uzunluğunu genişletir.
 
 {% highlight python %}
 "Python\tTurkiye".expandtabs(10)
@@ -625,7 +625,7 @@ ValueError: substring not found
 
 ***
 
-> `partition()` Karakter dizisini, parametre olarak girilen karakterleri ortaya gelecek şekilde alarak üçe böler. Eğer boş karakterler var ise bunları sağ tarafa alır.
+`partition()` Karakter dizisini, parametre olarak girilen karakterleri ortaya gelecek şekilde alarak üçe böler. Eğer boş karakterler var ise bunları sağ tarafa alır.
 
 {% highlight python %}
 "Malatya".partition("al")
@@ -652,7 +652,7 @@ ValueError: substring not found
 ***
 
 
-> `join()` Parametre olarak aldığı sıralı nesneyi (list, tuple) karakter dizisine çevirir. 
+`join()` Parametre olarak aldığı sıralı nesneyi (list, tuple) karakter dizisine çevirir. 
 
 {% highlight python %}
 " ".join(("Mustafa", "Kemal", "Atatürk"))
@@ -694,7 +694,7 @@ Bu hatadan, intager tipindeki değeri, string tipine çevirerek kurtulabiliriz.
 
 ***
 
-> `count()` Parametre olarak aldığı kararkterin, karakter dizisi içinde kaç kez geçtiğini sorgular.
+`count()` Parametre olarak aldığı kararkterin, karakter dizisi içinde kaç kez geçtiğini sorgular.
 
 {% highlight python %}
 "müdür müdür müdür".count("müdür")
@@ -729,7 +729,7 @@ count() Methodunu üç parametrey kullanırsak, ilk parametre  sorgulanak karakt
 
 ***
 
-> `format()` Karakter dizisi biçimlendirmek için kullanılır.
+`format()` Karakter dizisi biçimlendirmek için kullanılır.
 > Prametre olarak verilen veriyi karakterin içinde belirtilen {} bloğunun yerine yazar.
 > Karakter dizisi içinde kaç tane {} işareti varsa, format() metodu da o kadar parametre almalı.
 
@@ -803,7 +803,7 @@ float bir sayının, noktadan sonra alınacak basamak sayısını belirtip  yuva
 
 ***
 
-> `format_map()` Parametre olarak bir sözlük (dict) verisi alır.
+`format_map()` Parametre olarak bir sözlük (dict) verisi alır.
 
 {% highlight python %}
 sozluk= {'a':5,'b':10}
