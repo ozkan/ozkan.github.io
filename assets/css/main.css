@@ -1074,7 +1074,7 @@ table tfoot td {
   background-color: #10171e;
   -webkit-box-shadow: 0 0 6px 4px black;
     -moz-box-shadow: 0 0 6px 4px black;
-    box-shadow: 0 0 8px 2px black;
+    box-shadow: 0 0 8px 1px black;
 }
 
 .about {
