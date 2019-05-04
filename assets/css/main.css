@@ -441,7 +441,7 @@ template {
 /* Tikla Test Et Butonu */
 
 .btn {
-  border: none;
+  border: 1px solid #27313c;
   background-color: inherit;
   padding: 14px 28px;
   font-size: 16px;
@@ -450,11 +450,13 @@ template {
 }
 
 .btn:hover {
-  background: #b7c5d3;
+  background: #fff;
   
 }
 .info {
   color: dodgerblue;
+  background: #10171e;
+  border: 1px solid #27313c;
 }
 /* Tikla Test Et Butonu  ---son */
 
@@ -1455,10 +1457,10 @@ a.newer-posts:hover {
   display: inline-block;
   text-decoration: none;
   background-color: #10171e;
-  border: 1px solid #b7c5d3;
+  border: 1px solid #27313c;
   padding: 5px 10px;
   margin-left: 5px;
-  color: #b7c5d3;
+  color: dodgerblue;
   font-size: 12px;
   -webkit-transition: background-color .3s;
   -o-transition: background-color .3s;
@@ -1471,7 +1473,6 @@ a.newer-posts:hover {
 
 .page-footer .page-share a:hover {
   background-color: #ecf0f1;
-  color: #10171e;
 }
 
 .page-footer .page-tag a {
@@ -1520,10 +1521,10 @@ a.newer-posts:hover {
 
 .tags li a {
   text-decoration: none;
-  color: #b7c5d3;
+  color: dodgerblue;
   display: inline-block;
   padding: 5px 10px;
-  border: 1px solid #ecf0f1;
+  border: 1px solid #27313c;
   background-color: #10171e;
   -webkit-transition: all .3s;
   -o-transition: all .3s;
@@ -1532,7 +1533,6 @@ a.newer-posts:hover {
 
 .tags li a:hover {
   background-color: #ecf0f1;
-  color: #10171e;
 }
 
 .tag-list span a {
