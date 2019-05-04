@@ -640,7 +640,7 @@ ValueError: substring not found
 
 ***
 
->`rpartition()` Karakter dizisini, parametre olarak girilen karakterleri ortaya gelecek şekilde alarak üçe böler. Eğer boş karakterler var ise bunları sol tarafa alır.
+`rpartition()` Karakter dizisini, parametre olarak girilen karakterleri ortaya gelecek şekilde alarak üçe böler. Eğer boş karakterler var ise bunları sol tarafa alır.
 
 {% highlight python %}
 "python".rpartition("p")
@@ -823,7 +823,7 @@ print('{a} {b}'.format(**sozluk))
 
 ***
 
- ***encode()*** Karakter dizisini parametre olarak aldığı  kodlama sistemine göre kodlar.
+ `encode()` Karakter dizisini parametre olarak aldığı  kodlama sistemine göre kodlar.
  Varsayılan kodlama sistemi "utf-8" dir.
 
 {% highlight python %}
