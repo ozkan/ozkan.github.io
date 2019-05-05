@@ -15,7 +15,7 @@ Cambridge Üniversitesi'nde yapılmış bir araştırmanın sonucuna göre,<!--m
 
 Python ile bu cümleleri otomatik oluşturun:
     
-```python
+```python linenos
 from random import shuffle
 
 def karistir(cumle):
