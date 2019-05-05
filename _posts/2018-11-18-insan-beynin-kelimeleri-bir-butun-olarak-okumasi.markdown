@@ -5,9 +5,10 @@ date: 2018-11-18 18:28:20 +0300
 description: Cambridge Üniversitesi'nde yapılmış bir araştırmanın sonucu 
 img: yazi-resmi.png
 tags: [python, cambridge]
+excerpt_separator: <!--more-->
 ---
 
-Cambridge Üniversitesi'nde yapılmış bir araştırmanın sonucuna göre,
+Cambridge Üniversitesi'nde yapılmış bir araştırmanın sonucuna göre,<!--more-->
 > Bir kleimedkei hafrlrein hnagi sıarda didizlikleri dğeil, ilk ve son hafrlrein dğoru yedre olamalrı öenm tşamıatkadır.  
 > Geirsi taammen kamradaşır ve ynie de surosnuz olraak okubanilir. Buunn sbeebi isnan benyinin her hafri tek tek dieğl kemileelri bir
 > btüün oralak omukadısır.
