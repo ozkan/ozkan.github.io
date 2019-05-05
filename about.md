@@ -31,3 +31,4 @@ permalink: /about/
 {% endcomment %}
 
 {{ page.next.title }}
+
