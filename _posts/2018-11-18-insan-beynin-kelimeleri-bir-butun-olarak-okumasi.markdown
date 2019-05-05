@@ -6,6 +6,7 @@ description: Cambridge Üniversitesi'nde yapılmış bir araştırmanın sonucu
 img: yazi-resmi.png
 tags: [python, cambridge]
 excerpt_separator: <!--more-->
+excerpt: This post is about cats
 ---
 
 Cambridge Üniversitesi'nde yapılmış bir araştırmanın sonucuna göre,<!--more-->
@@ -13,6 +14,7 @@ Cambridge Üniversitesi'nde yapılmış bir araştırmanın sonucuna göre,<!--m
 > Geirsi taammen kamradaşır ve ynie de surosnuz olraak okubanilir. Buunn sbeebi isnan benyinin her hafri tek tek dieğl kemileelri bir
 > btüün oralak omukadısır.
 
+(···)
 Python ile bu cümleleri otomatik oluşturun:
     
 ```python
