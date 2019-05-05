@@ -9,11 +9,15 @@ type: about
 disqus_disabled: true
 permalink: /about/
 ---
+
+
+
 {% assign counter = "1|2|3|4|5|6|7|8|9|10" | split: "|" %}
 
 {{ counter | sample }}
 {{ counter | sample }}
 
+{% comment %}
 <ul>
   {% for post in site.posts %}
     <li>
@@ -22,3 +26,6 @@ permalink: /about/
     </li>
   {% endfor %}
 </ul>
+
+
+{% endcomment %}
