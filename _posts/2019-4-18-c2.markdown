@@ -11,7 +11,7 @@ tags: [c, c programlama]
 Girilen sayının mükemmel sayı olup olmadığını bulan program<br>
 Kendisi hariç bütün pozitif bölenlerinin toplamı kendisine eşit olan sayılara mükemmel sayı denir.
 
-{% highlight c linenos %}
+{% highlight c %}
 #include <stdio.h>
 
 int main(void){
