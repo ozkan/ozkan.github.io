@@ -9,7 +9,8 @@ type: about
 disqus_disabled: true
 permalink: /herseycokguzelolacak/
 ---
-
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wpeD_cimUs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XOS0b9l5nH8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
