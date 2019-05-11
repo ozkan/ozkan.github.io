@@ -1,6 +1,6 @@
 ---
 layout: basic
-title: #
+title: Her Şey Çok Güzel Olacak
 date: 
 description:  her sey cok guzel olacak
 img: herseycokguzelolacak.png # Add image post (optional)
