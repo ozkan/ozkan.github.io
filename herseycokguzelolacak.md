@@ -29,4 +29,4 @@ frameborder="0" allowfullscreen class="video"></iframe>
 
 [Her şey çok güzel olacak  -  Tasarım](https://medium.com/@Seyyahil/her-%C5%9Fey-%C3%A7ok-g%C3%BCzel-olacak-6ae491374c56)<br>
 
-[Ekrem İmamoğlu  -  Youtube](https://www.youtube.com/watch?v=KSrzDrY1_3Q)
+[Ekrem İmamoğlu  -  Youtube](https://www.youtube.com/user/ekremimamolu/videos)
