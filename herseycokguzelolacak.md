@@ -25,3 +25,6 @@ frameborder="0" allowfullscreen class="video"></iframe>
 
 [![Ünsal Ünlü]({{site.baseurl}}/assets/img/unsalunlu.png)](https://www.youtube.com/channel/UCzJMy0X4vYivbZHkNccpPhQ/featured)
 
+***
+
+[Her şey çok güzel olacak  -  Tasarım](https://medium.com/@Seyyahil/her-%C5%9Fey-%C3%A7ok-g%C3%BCzel-olacak-6ae491374c56)
