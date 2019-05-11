@@ -23,5 +23,5 @@ frameborder="0" allowfullscreen class="video"></iframe>
 
 ***
 
-[![Ünsal Ünlü]({{site.baseurl}}/assets/img/unsalunlu.png)](https://www.youtube.com/channel/UCzJMy0X4vYivbZHkNccpPhQ/featured){target="_blank"}
+[![Ünsal Ünlü]({{site.baseurl}}/assets/img/unsalunlu.png)](https://www.youtube.com/channel/UCzJMy0X4vYivbZHkNccpPhQ/featured)
 
