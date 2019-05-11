@@ -1,9 +1,9 @@
 ---
 layout: basic
-title: Her Şey Çok Güzel Olacak
+title: #
 date: 
-description:  Özkan Çelik
-#img: about_us.png # Add image post (optional)
+description:  her sey cok guzel olacak
+img: herseycokguzelolacak.png # Add image post (optional)
 tags: # 
 type: about
 disqus_disabled: true
