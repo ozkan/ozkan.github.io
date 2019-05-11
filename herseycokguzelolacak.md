@@ -14,11 +14,9 @@ permalink: /herseycokguzelolacak/
 frameborder="0" allowfullscreen class="video"></iframe>
 </div>
 <br>
-<br>
 
 ***
 
-<br>
 <br>
 <div class="container">
 <iframe src="https://www.youtube.com/embed/XOS0b9l5nH8" 
