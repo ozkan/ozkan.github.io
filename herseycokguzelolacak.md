@@ -13,11 +13,11 @@ permalink: /herseycokguzelolacak/
 <iframe src="https://www.youtube.com/embed/wpeD_cimUs0" 
 frameborder="0" allowfullscreen class="video"></iframe>
 </div>
-<br>
+
 
 ***
 
-<br>
+
 <div class="container">
 <iframe src="https://www.youtube.com/embed/XOS0b9l5nH8" 
 frameborder="0" allowfullscreen class="video"></iframe>
