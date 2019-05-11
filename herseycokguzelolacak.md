@@ -9,10 +9,14 @@ type: about
 disqus_disabled: true
 permalink: /herseycokguzelolacak/
 ---
-
-
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/wpeD_cimUs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="container">
+<iframe src="https://www.youtube.com/embed/wpeD_cimUs0" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
 
 ***
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/XOS0b9l5nH8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="container">
+<iframe src="https://www.youtube.com/embed/XOS0b9l5nH8" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
