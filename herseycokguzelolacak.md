@@ -9,7 +9,7 @@ type: about
 disqus_disabled: true
 permalink: /herseycokguzelolacak/
 ---
-<div class="container">
+<div class="container-youtube">
 <iframe src="https://www.youtube.com/embed/wpeD_cimUs0" 
 frameborder="0" allowfullscreen class="video"></iframe>
 </div>
