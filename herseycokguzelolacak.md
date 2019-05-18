@@ -38,3 +38,7 @@ frameborder="0" allowfullscreen class="video"></iframe>
 [dipnot.tv](https://dipnot.tv/)
 
 [medyascope.tv](https://medyascope.tv/)
+
+<center>
+![demokrasi](https://pbs.twimg.com/media/D63O3fBXoAAZzIq.jpg:large)
+</center>
