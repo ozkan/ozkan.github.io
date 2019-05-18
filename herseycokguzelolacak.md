@@ -39,8 +39,8 @@ frameborder="0" allowfullscreen class="video"></iframe>
 
 [medyascope.tv](https://medyascope.tv/)
 
-<center>
 
-![demokrasi](https://pbs.twimg.com/media/D63O3fBXoAAZzIq.jpg)
 
-</center>
+> Demokrasinin ölümü muhtemelen bir çalılıktan suikast ile olmayacaktır. 
+> Vurdumduymazlık, umursamazlık ve değerbilmezlik yoluyla, yavaş bir tükeniş olacaktır.
+> <p align="right"> Robert Hutchins</p>
