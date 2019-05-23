@@ -35,6 +35,8 @@ frameborder="0" allowfullscreen class="video"></iframe>
 
 [dogrulukpayi.com](https://www.dogrulukpayi.com/)
 
+[teyit.org](https://teyit.org/)
+
 [dipnot.tv](https://dipnot.tv/)
 
 [medyascope.tv](https://medyascope.tv/)
