@@ -33,13 +33,14 @@ frameborder="0" allowfullscreen class="video"></iframe>
 
 [AKP'nin yalan kampanyasına hap gibi cevaplar - Cem Say](https://odatv.com/akpnin-yalan-kampanyasina-hap-gibi-cevaplar-12051946.html)
 
+[medyascope.tv](https://medyascope.tv/)
+
 [dogrulukpayi.com](https://www.dogrulukpayi.com/)
 
 [teyit.org](https://teyit.org/)
 
 [dipnot.tv](https://dipnot.tv/)
 
-[medyascope.tv](https://medyascope.tv/)
 
 
 
@@ -54,4 +55,6 @@ frameborder="0" allowfullscreen class="video"></iframe>
 <iframe src="https://www.youtube.com/embed/9dSknRGLDX8" 
 frameborder="0" allowfullscreen class="video"></iframe>
 </div>
+
+
 
