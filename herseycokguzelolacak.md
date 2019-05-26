@@ -54,4 +54,3 @@ frameborder="0" allowfullscreen class="video"></iframe>
 <iframe src="https://www.youtube.com/watch?v=9dSknRGLDX8" 
 frameborder="0" allowfullscreen class="video"></iframe>
 </div>
-
