@@ -46,3 +46,12 @@ frameborder="0" allowfullscreen class="video"></iframe>
 > Demokrasinin ölümü muhtemelen bir çalılıktan suikast ile olmayacaktır. 
 > Vurdumduymazlık, umursamazlık ve değerbilmezlik yoluyla, yavaş bir tükeniş olacaktır.
 > <p align="right"> Robert Hutchins</p>
+
+
+***
+
+<div class="container-youtube">
+<iframe src="https://www.youtube.com/watch?v=9dSknRGLDX8" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
+
