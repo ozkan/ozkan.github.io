@@ -756,8 +756,8 @@ blockquote {
   background-color: #10171e;
   border-left: 5px solid dodgerblue;
   padding-left: 1.1rem;
+  padding-right: 1.1rem;
   margin-left: 1rem;
-  margin-right: 1rem:
   font-style: italic;
   color:#b7c5d3;
 }
