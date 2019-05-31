@@ -1286,7 +1286,10 @@ a.newer-posts:hover {
   margin-bottom: 0.5%;
   -webkit-transition: all .3s;
   transition: all .3s;
-  border: 2px solid #10171e;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #10171e;
+  border-left: 5px solid dodgerblue;
 }
 
 .recent-box .recent-list .recent-item span {
