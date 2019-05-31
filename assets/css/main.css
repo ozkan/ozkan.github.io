@@ -390,7 +390,7 @@ template {
   -webkit-border-radius: 3px;
           border-radius: 3px;
   margin: 0;
-  border-bottom: 3px solid dodgerblue;
+  border-left: 5px solid dodgerblue;
 }
 
 .highlighter-rouge {
@@ -751,8 +751,10 @@ img + em {
 }
 
 blockquote {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
   background-color: #10171e;
-  border-left: 5px solid #1e83d4;
+  border-left: 5px solid dodgerblue;
   padding-left: 1.1rem;
   margin-left: 1rem;
   font-style: italic;
