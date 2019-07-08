@@ -572,34 +572,34 @@ void kitaplariYazdir( struct Kitaplar kitap ) {
 {% include note.html not=" Diğer örnekler." %}
 <br>
 
-[örnek 1](https://repl.it/@celikozkan/cornekleri1)<br>
-[örnek 2](https://repl.it/@celikozkan/cornekleri2)<br>  
-[örnek 3](https://repl.it/@celikozkan/cornekleri3)<br>  
-[örnek 4](https://repl.it/@celikozkan/cornekleri4)<br>  
-[örnek 5](https://repl.it/@celikozkan/cornekleri5)<br>  
-[örnek 6](https://repl.it/@celikozkan/cornekleri6)<br>
-[örnek 7](https://repl.it/@celikozkan/cornekleri7)<br>
-[örnek 8](https://repl.it/@celikozkan/cornekleri8)<br>
-[örnek 9](https://repl.it/@celikozkan/cornekleri9)<br>
-[örnek 10](https://repl.it/@celikozkan/cornekleri10)<br>
-[örnek 11](https://repl.it/@celikozkan/cornekleri11)<br>
-[örnek 12](https://repl.it/@celikozkan/cornekleri12)<br>
-[örnek 13](https://repl.it/@celikozkan/cornekleri13)<br>
-[örnek 14](https://repl.it/@celikozkan/cornekleri14)<br>
-[örnek 15](https://repl.it/@celikozkan/cornekleri15)<br>
-[örnek 16](https://repl.it/@celikozkan/cornekleri16)<br>
-[örnek 17](https://repl.it/@celikozkan/cornekleri17)<br>
-[örnek 18](https://repl.it/@celikozkan/cornekleri18)<br>
-[örnek 19](https://repl.it/@celikozkan/cornekleri19)<br>
-[örnek 20](https://repl.it/@celikozkan/cornekleri20)<br>
-[örnek 21](https://repl.it/@celikozkan/cornekleri21)<br>
-[örnek 22](https://repl.it/@celikozkan/cornekleri22)<br>
-[örnek 23](https://repl.it/@celikozkan/cornekleri23)<br>
-[örnek 24](https://repl.it/@celikozkan/cornekleri24)<br>
-[örnek 25](https://repl.it/@celikozkan/cornekleri25)<br>
-[örnek 26](https://repl.it/@celikozkan/cornekleri26)<br>
-[örnek 27](https://repl.it/@celikozkan/cornekleri27)<br>
-[örnek 28](https://repl.it/@celikozkan/cornekleri28)<br>
+[örnek 1](https://repl.it/@celikozkan/cornekleri1)  
+[örnek 2](https://repl.it/@celikozkan/cornekleri2)  
+[örnek 3](https://repl.it/@celikozkan/cornekleri3)  
+[örnek 4](https://repl.it/@celikozkan/cornekleri4)  
+[örnek 5](https://repl.it/@celikozkan/cornekleri5)  
+[örnek 6](https://repl.it/@celikozkan/cornekleri6)  
+[örnek 7](https://repl.it/@celikozkan/cornekleri7)  
+[örnek 8](https://repl.it/@celikozkan/cornekleri8)  
+[örnek 9](https://repl.it/@celikozkan/cornekleri9)  
+[örnek 10](https://repl.it/@celikozkan/cornekleri10)  
+[örnek 11](https://repl.it/@celikozkan/cornekleri11)  
+[örnek 12](https://repl.it/@celikozkan/cornekleri12)  
+[örnek 13](https://repl.it/@celikozkan/cornekleri13)  
+[örnek 14](https://repl.it/@celikozkan/cornekleri14)  
+[örnek 15](https://repl.it/@celikozkan/cornekleri15)  
+[örnek 16](https://repl.it/@celikozkan/cornekleri16)  
+[örnek 17](https://repl.it/@celikozkan/cornekleri17)  
+[örnek 18](https://repl.it/@celikozkan/cornekleri18)  
+[örnek 19](https://repl.it/@celikozkan/cornekleri19)  
+[örnek 20](https://repl.it/@celikozkan/cornekleri20)  
+[örnek 21](https://repl.it/@celikozkan/cornekleri21)  
+[örnek 22](https://repl.it/@celikozkan/cornekleri22)  
+[örnek 23](https://repl.it/@celikozkan/cornekleri23)  
+[örnek 24](https://repl.it/@celikozkan/cornekleri24)  
+[örnek 25](https://repl.it/@celikozkan/cornekleri25)  
+[örnek 26](https://repl.it/@celikozkan/cornekleri26)  
+[örnek 27](https://repl.it/@celikozkan/cornekleri27)  
+[örnek 28](https://repl.it/@celikozkan/cornekleri28)  
 
 
 
