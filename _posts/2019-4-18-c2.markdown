@@ -569,8 +569,45 @@ void kitaplariYazdir( struct Kitaplar kitap ) {
 <p align="right"> {% include btn.html adres="https://repl.it/@celikozkan/ornek39" isim="Tıkla Test ET!" %} </p>
 <br>
 
-{% include note.html not=" Bu makale güncellenecek." %}
+{% include note.html not=" Diğer örnekler." %}
 <br>
+
+[örnek 1](https://repl.it/@celikozkan/cornekleri1)<br>
+[örnek 2](https://repl.it/@celikozkan/cornekleri2)<br>  
+[örnek 3](https://repl.it/@celikozkan/cornekleri3)<br>  
+[örnek 4](https://repl.it/@celikozkan/cornekleri4)<br>  
+[örnek 5](https://repl.it/@celikozkan/cornekleri5)<br>  
+[örnek 6](https://repl.it/@celikozkan/cornekleri6)<br>
+[örnek 7](https://repl.it/@celikozkan/cornekleri7)<br>
+[örnek 8](https://repl.it/@celikozkan/cornekleri8)<br>
+[örnek 9](https://repl.it/@celikozkan/cornekleri9)<br>
+[örnek 10](https://repl.it/@celikozkan/cornekleri10)<br>
+[örnek 11](https://repl.it/@celikozkan/cornekleri11)<br>
+[örnek 12](https://repl.it/@celikozkan/cornekleri12)<br>
+[örnek 13](https://repl.it/@celikozkan/cornekleri13)<br>
+[örnek 14](https://repl.it/@celikozkan/cornekleri14)<br>
+[örnek 15](https://repl.it/@celikozkan/cornekleri15)<br>
+[örnek 16](https://repl.it/@celikozkan/cornekleri16)<br>
+[örnek 17](https://repl.it/@celikozkan/cornekleri17)<br>
+[örnek 18](https://repl.it/@celikozkan/cornekleri18)<br>
+[örnek 19](https://repl.it/@celikozkan/cornekleri19)<br>
+[örnek 20](https://repl.it/@celikozkan/cornekleri20)<br>
+[örnek 21](https://repl.it/@celikozkan/cornekleri21)<br>
+[örnek 22](https://repl.it/@celikozkan/cornekleri22)<br>
+[örnek 23](https://repl.it/@celikozkan/cornekleri23)<br>
+[örnek 24](https://repl.it/@celikozkan/cornekleri24)<br>
+[örnek 25](https://repl.it/@celikozkan/cornekleri25)<br>
+[örnek 26](https://repl.it/@celikozkan/cornekleri26)<br>
+[örnek 27](https://repl.it/@celikozkan/cornekleri27)<br>
+[örnek 28](https://repl.it/@celikozkan/cornekleri28)<br>
+
+
+
+
+
+
+
+
 
 [21]: https://repl.it/@celikozkan/ornek21
 [22]: https://repl.it/@celikozkan/ornek22
