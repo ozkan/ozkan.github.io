@@ -11,7 +11,7 @@ permalink: /okudum_izledim/
 
 
 `29.08.2019 : İzledim`
-
+> Notlarla yüzleşme / Güven kazanmanın yolu, Orjinali bulma yolu, Devlet desteği
 <div class="container-youtube">
 <iframe src="https://www.youtube.com/embed/8iwAmGbP2JI" 
 frameborder="0" allowfullscreen class="video"></iframe>
