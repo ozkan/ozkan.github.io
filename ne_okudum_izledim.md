@@ -1,6 +1,6 @@
 ---
 layout: basic
-title: Okuduklarım ve İzlediklerim
+title: #Okuduklarım ve İzlediklerim
 date: 
 description: Ne Okudum, Ne İzledim
 img:  okuduklarim_izlediklerim.png # Add image post (optional)
