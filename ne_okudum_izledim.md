@@ -13,7 +13,7 @@ permalink: /okudum_izledim/
 `29.08.2019 : İzledim`
 
 <div class="container-youtube">
-<iframe src="https://www.youtube.com/watch?v=8iwAmGbP2JI" 
+<iframe src="https://www.youtube.com/embed/8iwAmGbP2JI" 
 frameborder="0" allowfullscreen class="video"></iframe>
 </div>
 
