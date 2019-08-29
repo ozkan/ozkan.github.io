@@ -3,7 +3,7 @@ layout: basic
 title: Okuduklarım ve İzlediklerim
 date: 
 description: Ne Okudum, Ne İzledim
-img:  # Add image post (optional)
+img:  okuduklarim_izlediklerim.png # Add image post (optional)
 tags: # 
 disqus_disabled: false
 permalink: /okudum_izledim/
