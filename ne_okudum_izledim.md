@@ -10,9 +10,27 @@ permalink: /okudum_izledim/
 ---
 
 `30.08.2019 : İzledim`
+> Sıradaki Zafer
+<div class="container-youtube">
+<iframe src="https://www.youtube.com/embed/ma0gtwu8NUk" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
+
+***
+
+`30.08.2019 : İzledim`
 > Bursa'dan San Francisco'ya Dijital İhracat 
 <div class="container-youtube">
 <iframe src="https://www.youtube.com/embed/1biG0aM5tuM" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
+
+***
+
+`30.08.2019 : İzledim`
+> Tarihte Kadın
+<div class="container-youtube">
+<iframe src="https://www.youtube.com/embed/n_2XaJcW7WM" 
 frameborder="0" allowfullscreen class="video"></iframe>
 </div>
 
