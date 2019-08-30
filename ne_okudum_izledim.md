@@ -19,3 +19,11 @@ frameborder="0" allowfullscreen class="video"></iframe>
 
 ***
 
+`30.08.2019 : İzledim`
+> Bursa'dan San Francisco'ya Dijital İhracat 
+<div class="container-youtube">
+<iframe src="https://www.youtube.com/embed/1biG0aM5tuM" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
+
+***
