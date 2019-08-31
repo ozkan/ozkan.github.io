@@ -12,17 +12,13 @@ permalink: /okudum_izledim/
 ***
 
 `31.08.2019 : Okudum`
-> Python 3.7 ile gelen 'dataclass'
-
+> Python 3.7 ile gelen 'dataclass'  
 [https://www.coogger.com/@bufgix/dataclasses](https://www.coogger.com/@bufgix/dataclasses/)
 
 ***
 `30.08.2019 : İzledim`
 > Sıradaki Zafer
-<div class="container-youtube">
-<iframe src="https://www.youtube.com/embed/ma0gtwu8NUk" 
-frameborder="0" allowfullscreen class="video"></iframe>
-</div>
+> <div class="container-youtube"><iframe src="https://www.youtube.com/embed/ma0gtwu8NUk" frameborder="0"allowfullscreen class="video"></iframe></div>
 
 ***
 
