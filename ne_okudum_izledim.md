@@ -10,37 +10,35 @@ permalink: /okudum_izledim/
 ---
 
 ***
-
-
-> Python 3.7 ile gelen 'dataclass'
+ 
+> <span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; Python 3.7 ile gelen 'dataclass'  &nbsp;</span>   
 > [https://www.coogger.com/@bufgix/dataclasses](https://www.coogger.com/@bufgix/dataclasses/)
-> <p align="right"> 31.08.2019 : Okudum </p>
+> <p align="right"><span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; 31.08.2019 : Okudum &nbsp;</span></p>
 
 
 ***
 
-> Sıradaki Zafer
+> <span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; Sıradaki Zafer  &nbsp;</span>   
 > <div class="container-youtube">
 > <iframe src="https://www.youtube.com/embed/ma0gtwu8NUk" 
 > frameborder="0" allowfullscreen class="video"></iframe></div>
-> <p align="right"> 30.08.2019 : İzledim </p>
+> <p align="right"><span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; 30.08.2019 : izledim &nbsp;</span></p>
 
 ***
 
->  Bursa'dan San Francisco'ya Dijital İhracat
+> <span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; Bursa'dan San Francisco'ya Dijital İhracat  &nbsp;</span>   
 > <div class="container-youtube">
 > <iframe src="https://www.youtube.com/embed/1biG0aM5tuM" 
 > frameborder="0" allowfullscreen class="video"></iframe></div>
-> <p align="right"> 30.08.2019 : İzledim </p>
-
+> <p align="right"><span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; 30.08.2019 : izledim &nbsp;</span></p>
 
 ***
 
-> Tarihte Kadın
+> <span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; Tarihte Kadı  &nbsp;</span>   
 > <div class="container-youtube">
 > <iframe src="https://www.youtube.com/embed/n_2XaJcW7WM" 
 > frameborder="0" allowfullscreen class="video"></iframe> </div>
-> <p align="right"> 30.08.2019 : İzledim </p>
+> <p align="right"><span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; 30.08.2019 : izledim &nbsp;</span></p>
 
 ***
 
@@ -49,6 +47,6 @@ permalink: /okudum_izledim/
 > <div class="container-youtube">
 > <iframe src="https://www.youtube.com/embed/8iwAmGbP2JI" 
 > frameborder="0" allowfullscreen class="video"></iframe></div>
-> <p align="right"> 29.08.2019 : İzledim </p>
+> <p align="right"><span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; 29.08.2019 : izledim &nbsp;</span></p>
 
 ***
