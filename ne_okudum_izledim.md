@@ -9,14 +9,14 @@ disqus_disabled: false
 permalink: /okudum_izledim/
 ---
 
-***
+
  
 > <span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; Python 3.7 ile gelen 'dataclass'  &nbsp;</span>   
 > [https://www.coogger.com/@bufgix/dataclasses](https://www.coogger.com/@bufgix/dataclasses/)
 > <p align="right"><span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; 31.08.2019 : Okudum &nbsp;</span></p>
 
 
-***
+
 
 > <span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; Sıradaki Zafer  &nbsp;</span>   
 > <div class="container-youtube">
@@ -24,7 +24,7 @@ permalink: /okudum_izledim/
 > frameborder="0" allowfullscreen class="video"></iframe></div>
 > <p align="right"><span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; 30.08.2019 : izledim &nbsp;</span></p>
 
-***
+
 
 > <span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; Bursa'dan San Francisco'ya Dijital İhracat  &nbsp;</span>   
 > <div class="container-youtube">
@@ -32,7 +32,7 @@ permalink: /okudum_izledim/
 > frameborder="0" allowfullscreen class="video"></iframe></div>
 > <p align="right"><span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; 30.08.2019 : izledim &nbsp;</span></p>
 
-***
+
 
 > <span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; Tarihte Kadın  &nbsp;</span>   
 > <div class="container-youtube">
@@ -40,7 +40,6 @@ permalink: /okudum_izledim/
 > frameborder="0" allowfullscreen class="video"></iframe> </div>
 > <p align="right"><span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; 30.08.2019 : izledim &nbsp;</span></p>
 
-***
 
 
 > Notlarla yüzleşme / Güven kazanmanın yolu, Orjinali bulma yolu, Devlet desteği
@@ -49,4 +48,3 @@ permalink: /okudum_izledim/
 > frameborder="0" allowfullscreen class="video"></iframe></div>
 > <p align="right"><span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; 29.08.2019 : izledim &nbsp;</span></p>
 
-***
