@@ -34,7 +34,7 @@ permalink: /okudum_izledim/
 
 ***
 
-> <span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; Tarihte Kadı  &nbsp;</span>   
+> <span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; Tarihte Kadın  &nbsp;</span>   
 > <div class="container-youtube">
 > <iframe src="https://www.youtube.com/embed/n_2XaJcW7WM" 
 > frameborder="0" allowfullscreen class="video"></iframe> </div>
