@@ -9,7 +9,7 @@ disqus_disabled: false
 permalink: /okudum_izledim/
 ---
 > <span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp;  “Rust, Crystal, Ruby dünyası, statik diller neden yeniden popüler oldu? ve diğerleri” - Serdar Doğruyol  &nbsp;</span>
-> <iframe title="kodpod" id="multi_iframe" style="border: none;" scrolling="no" allowfullscreen="" src="https://www.podbean.com/media/player/multi?playlist=http%3A%2F%2Fplaylist.podbean.com%2F5419739%2Fplaylist_multi.xml&vjs=1&size=315&share=1&fonts=Helvetica&auto=0&download=1&skin=0" width="100%" height="505"></iframe>
+> <iframe title="kodpod" id="multi_iframe" style="border: none;" scrolling="no" allowfullscreen="" src="https://www.podbean.com/media/player/multi?playlist=http%3A%2F%2Fplaylist.podbean.com%2F5419739%2Fplaylist_multi.xml&vjs=1&size=315&share=1&fonts=Helvetica&auto=0&download=1&skin=0" width="100%" height="240"></iframe>
 > <p align="right"><span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; 03.09.2019 : Dinledim &nbsp;</span></p>
 
 
