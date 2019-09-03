@@ -10,12 +10,16 @@ permalink: /okudum_izledim/
 ---
 
 
+> <span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; Başarı vs. Başarısızlık - Yerli ve Milli Işın Kılıcı | Murat Gamsız  &nbsp;</span>   
+> <div class="container-youtube">
+> <iframe src="https://www.youtube.com/embed/VWyVA8nSFtg" 
+> frameborder="0" allowfullscreen class="video"></iframe></div>
+> <p align="right"><span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; 03.09.2019 : izledim &nbsp;</span></p>
  
+
 > <span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; Python 3.7 ile gelen 'dataclass'  &nbsp;</span>   
 > [https://www.coogger.com/@bufgix/dataclasses](https://www.coogger.com/@bufgix/dataclasses/)
 > <p align="right"><span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; 31.08.2019 : Okudum &nbsp;</span></p>
-
-
 
 
 > <span style="background-color: #15202b; border-radius: 5px 5px 5px 5px"> &nbsp; Sıradaki Zafer  &nbsp;</span>   
