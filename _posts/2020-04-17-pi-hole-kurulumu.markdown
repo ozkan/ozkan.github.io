@@ -154,7 +154,7 @@ Aşağıdaki ayarları tercihinize göre değiştirbilirsiniz, ancak ilk pencede
 
 
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/a9.png)   <br>
-![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/10.png)   <br>
+![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/a10.png)   <br>
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/a11.png)   <br>
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/a12.png)   <br>
 
@@ -188,7 +188,7 @@ Aşağıdaki resimdeki görüldüğü gibi dağıtılacak IP adresi aralığı b
 
 
 
-![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/pi-hole-dhcp)   
+![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/pi-hole-dhcp.png)   
 
 
 
