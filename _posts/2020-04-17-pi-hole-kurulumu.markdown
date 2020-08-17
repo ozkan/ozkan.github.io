@@ -54,10 +54,10 @@ Programı çalıştırın ve aşağıdaki ekran görüntüsündeki gibi Raspberr
 
 Eğer başarılı bir şekilde bağlanabilirseniz Rasberry Pi sizden bir şifre ve kullanıcı adı isteyecek. Varsayılan kullanıcı adı ve şifre aşşağıdaki gibidir:  
 
-{% highlight c %}
+{% highlight %}
 Kullanıcı adı: pi   
 Şifre: raspberry    
-{% highlight c %}
+{% endhighlight %}
 
 <center>
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/pi-terminal.png)   
@@ -69,14 +69,14 @@ Kullanıcı adı: pi
 Kurulumu "root/su" kullanıcı olarak yapmamız gerekiyor, en azından ilerleyen adımlarda sorun yaşamamak bu adımı atlamamakta fayda var.
 root olarak işlem yapabilmek için aşağıdaki komutlardan birini çalıştırın:
 
-{% highlight c %}
+{% highlight %}
 sudo su
 sudo -i
 {% endhighlight %}
 
 Pi-hole uygulamasını tek adımda otomatik olarak kurmak mümkün, kurulumu başlatmak için aşağıdaki komutu çalıştırın:
 
-{% highlight c %}
+{% highlight %}
 curl -sSL https://install.pi-hole.net | bash
 {% endhighlight %}
 
@@ -132,7 +132,7 @@ Aşağıdaki ayarları tercihinize göre değiştirbilirsiniz, ancak ilk pencede
 
 Kurulum tamamlandında web arayüzne giriş yapabilmeniz için bir parola verecek.  Eğer parolayı değiştirmek isterseniz aşağıdaki komutu kullanabilirsiniz.    
 
-{% highlight c %}
+{% highlight %}
 pihole -a -p yeniparola
 {% endhighlight %}
 
@@ -175,7 +175,8 @@ Pi-hole birçok komut kullanır, komut satırı arayüzü kullanabileceğiniz bi
 Tamamı: [https://docs.pi-hole.net/core/pihole-command/](https://docs.pi-hole.net/core/pihole-command/)  
 
 ## Pi-hole Core Komutları:  
-{% highlight c %}
+
+{% highlight %}
 Beyaz listeye alma (Whitelisting): pihole -w,
 Kara listeye alma (Blacklisting): pihole -b
 Düzenli ifade (Regex): pihole -regex
@@ -193,7 +194,8 @@ DNS yeniden başlatma (Restart DNS): pihole restartdns
 {% endhighlight %}
 
 ## Pi-hole Web Komutları: 
-{% highlight c %}
+
+{% highlight %}
 Parola (Password): pihole -a password secretpassword
 Sıcaklık birimi (Temperature Unit): pihole -a celsius, pihole -a fahrenheit, pihole -a kelvin fahrenheit, pihole -a kelvin
 Ana Bilgisayar Kaydı (Host Record): pihole -a hostrecord
