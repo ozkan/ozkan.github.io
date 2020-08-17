@@ -3,7 +3,7 @@ layout: post
 title: "Pi-Hole Kurulum Rehberi"
 date: 2020-08-17 02:30:20 +0300
 description: Pi-Hole kurulumu
-img: pihole. png
+img: pihole.png
 tags: [pi-hole, raspberry pi, reklam engelleme]
 ---
 
