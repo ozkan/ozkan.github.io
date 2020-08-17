@@ -89,10 +89,10 @@ Aşağıdaki gibi bilgilendirme pencerelerinde "ok" seçeneğini seçip geçiyor
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/a3.png) <br>
 Bu adımda bir DNS sağlayıcısı seçmenizi istiyor. Genellikle Cloudflare  kullanılıyor ben de ilk kurulumda Cloudflare DNS sağlayıcısını seçtim.
 
-Aşağı ve yukarı yön tuşları: listede gezinme,
+Aşağı ve yukarı yön tuşları: Listede gezinme, 
+Tab tuşu: Onay menüsüne geçme,  
+Space tuşu: Seçme/kaldırma için kullanılır. 
 
-Tab tuşu: Onay menüsüne geçme,
-Space tuşu: Seçme/kaldırma için kullanılır.
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/a4.png)
 
 Pi-hole tarafından hazırlanmış listeleri yüklemek isterseniz her iki seçeneği işaretleyin. Daha sonra kendi listelerimizi de oluşturabiliyoruz.
