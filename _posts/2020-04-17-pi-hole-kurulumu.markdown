@@ -4,7 +4,7 @@ title: "Pi-Hole Kurulum Rehberi"
 date: 2020-08-17 02:30:20 +0300
 description: Pi-Hole kurulumu
 img: pihole.png
-tags: [pi-hole, raspberry pi, reklam engelleme]
+tags: [pi-hole, raspberry pi, DNSCrypt-Proxy, reklam engelleme]
 ---
 
 <style>
@@ -65,14 +65,14 @@ Kullanıcı adı: pi
 Kurulumu "root/su" kullanıcısı olarak yapmamız gerekiyor, en azından ilerleyen adımlarda sorun yaşamamak bu adımı atlamamakta fayda var.
 root olarak işlem yapabilmek için aşağıdaki komutlardan birini çalıştırın:
 
-{% highlight c %}
+{% highlight bash %}
 sudo su
 sudo -i
 {% endhighlight %}
 
 Pi-hole uygulamasını tek adımda otomatik olarak kurmak mümkün, kurulumu başlatmak için aşağıdaki komutu çalıştırın: 
 
-{% highlight c %}
+{% highlight bash %}
 curl -sSL https://install.pi-hole.net | bash
 {% endhighlight %}
 
