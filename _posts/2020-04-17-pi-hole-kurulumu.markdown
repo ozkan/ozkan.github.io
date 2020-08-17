@@ -193,7 +193,7 @@ Etkinletşrme & Devre dışı bırakma (Enable & Disable): pihole enable
 DNS yeniden başlatma (Restart DNS): pihole restartdns
 {% endhighlight %}
 
-## Pi-hole Web Komutları: 
+## Pi-hole Web Komutları:   
 
 {% highlight %}
 Parola (Password): pihole -a password secretpassword
