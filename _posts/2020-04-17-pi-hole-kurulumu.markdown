@@ -26,13 +26,18 @@ Win32DiskImager İndirme Linki: [https://sourceforge.net/projects/win32diskimage
 img dosyasını ve kurulum yapacağınız SD kartı seçin ve "write" butonuyla imajı SD karta yazdırın.   
 
 <center>
+
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/pihole-img.png)
+
 </center>
+
 
 Kurulum tamamladıktan sonra Raspberry Pi'de SSH etkinletirebilmek için  SD kartın Boot bölümüne uzantısız SSH adlı boş bir dosya oluşturun.  Pi açıldığında boot klasöründe  SSH dosyasını arar eğer bulursa SSH etkinleştirilir ve dosya silinir. Ayrıntılı bilgiye ihtiyaç duyarsanız  şu bağlantıdan 3. adıma bakabilirsiniz: [https://www.raspberrypi.org/documentation/remote-access/ssh/](https://www.raspberrypi.org/documentation/remote-access/ssh/)
 
 <center>
+
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/ssh-file.png)
+
 </center>
 
 SD kartınızı Raspberry Pi cihazınıza takın, modeme bağlayın ve güç kablosunu bağlayıp çalıştırın.    
@@ -42,25 +47,31 @@ Ben bu işlemler için çoğunlukla "Advanced IP Scanner" programını kullanıy
 Şu adresten indirebilirsiniz: [ https://www.advanced-ip-scanner.com/tr/](https://www.advanced-ip-scanner.com/tr/)   
 
 <center>
+
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/ip-search.png)   
+
 </center>
 
 Rasberry Pi cihazımızın ip adresini öğrendiğimize göre artık cihazımızın ternminaline bağlanabiliriz. Bu işlem (SSH) için sıklıkla "PuTTY" programı kullanılıyor. Eğer Bilgisayarınızda yüklü değilse şu adresten indirebilirsiniz:  [https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html )
 Programı çalıştırın ve aşağıdaki ekran görüntüsündeki gibi Raspberry Pi cihazının ip adresini girin ve ardından "Open" butonu ile cihaza bağlanın.
 
 <center>
+
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/putty.png)   
+
 </center>
 
 Eğer başarılı bir şekilde bağlanabilirseniz Rasberry Pi sizden bir şifre ve kullanıcı adı isteyecek. Varsayılan kullanıcı adı ve şifre aşşağıdaki gibidir:  
 
-{% highlight c %}
+{% highlight python %}
 Kullanıcı adı: pi   
 Şifre: raspberry    
 {% endhighlight %}
 
 <center>
+
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/pi-terminal.png)   
+
 </center>
 
 
@@ -81,16 +92,20 @@ curl -sSL https://install.pi-hole.net | bash
 {% endhighlight %}
 
 <center>
+
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/pihole-install.png)   
+
 </center>
 
 Kurulum sihirbazı başlayacak ve kurulum aşamadışında Pi-hole hakkında bize bazı bilgiler gösterilecek ve bazı ayarları yapmamızı isteyecek. Aslında bu ayarların büyük bir kısmını varsayılan olarak bırakacağız. Eğer farklı bir versiyon kuruyorsanız ve tereddütte kalırsanız ayarı olduğu gibi bırakın.     
 Aşağıdaki gibi bilgilendirme pencerinde "ok" seçeneğini seçip geçiyoruz. 
 
 <center>
+
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/a1.png)  <br>
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/a2.png)  <br>
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/a3.png)  <br>
+
 </center>
 
 
@@ -101,33 +116,44 @@ Tab tuşu: Onay menüsüne geçme,
 Space tuşu: Seçme için kullanılır.      
 
 <center>
+
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/a4.png)   
+
 </center>
+
 
 Pi-hole tarafından hazırlanmış  listeleri yüklemek isterseniz her iki seçeneği işaretleyin. Daha sonra kendi listelerinizi de oluşturabiliyoruz.    
 
 <center>
+
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/a5.png)   
+
 </center>
 
 Aşağıdaki pencerede ise kullanmak istediğimiz ip protokünü seçmemizi istiyor. Şu anda Türkiyede ipv6 desteklenmiyor o yüzünden sadece ipv4 seçeneğini işaretliyoruz. 
 
 <center>
+
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/a6.png)   
+
 </center>
 
 Pi-hole sunucusunun statik adresi       
 <center>
+
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/a7.png)   
+
 </center>
 
 Aşağıdaki ayarları tercihinize göre değiştirbilirsiniz, ancak ilk pencedeki admin web aryüzünü kurmanızda fayda var. Ben bu ayarları olduğu gibi bıraktım.   
 
 <center>
+
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/a9.png)   <br>
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/10.png)   <br>
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/a11.png)   <br>
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/a12.png)   <br>
+
 </center>
 
 Kurulum tamamlandında web arayüzne giriş yapabilmeniz için bir parola verecek.  Eğer parolayı değiştirmek isterseniz aşağıdaki komutu kullanabilirsiniz.    
@@ -139,15 +165,19 @@ pihole -a -p yeniparola
 Kurulum tamamladığında  Pi-hole uygulamasına raspberry Pi cihazımızın ip adresini bilgisayarımızın web tarayısına yazarak erişebiliriz.     
 
 <center>
+
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/pi-hole-login.png)   <br>
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/pi-hole-admin.png)   
+
 </center>
 
 Pi-hole uygulamasını DNS sunucusu olarak kullanabilmek 3 tane seçeneğimiz.   
 1 İç ağdaki her cihaza Pi-hole adresini DNS adresi olarak ayarlamak.  
 
 <center>
+
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/ip-dns.png)   
+
 </center>
 
 2 Pi-hole uygulamasını DHCP sunucusu olarak ayarlamak, dns sunucuları Pi-hole yönlendirmek.    
@@ -156,19 +186,25 @@ Pi-hole aşağıdaki resimdeki gibi belirlediğinizin aralıktaki ip adreslerini
 Aşağıdaki resimdeki görüldüğü gibi dağıtılacak IP adresi aralığı belirleyebilirsiniz.   
 
 <center>
+
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/pi-hole-dhcp)   
+
 </center>
 
 Eğer Pi-hole DHCP sunucusunu kullanmaya karar verdiyseniz modemizin DHCP sunucusu devre dışı bırakın.   
 
 <center>
+
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/dhcp-mod.png)   
+
 </center>
 
 3 Modemden DNS Sunucusu olarak pi-hole seçmek. Bu şeklildeki bir kullanımda hiçbir  cihaza (bigisayar/telefon ..) DNS ayarı yapmanıza gerek kalmaz. Bu ağa bağlanacak tüm cihazlar Pi-hole üzerinden internete bağlanır.. (Modemlerin kullanıcı ayarları birbirinden farklılık gösterir)    
 
 <center>
+
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/dhcp-mod2.png)   
+
 </center>
 <br>
 Pi-hole birçok komut kullanır, komut satırı arayüzü kullanabileceğiniz bir kaç komut:
@@ -176,7 +212,7 @@ Tamamı: [https://docs.pi-hole.net/core/pihole-command/](https://docs.pi-hole.ne
 
 ## Pi-hole Core Komutları:  
 
-{% highlight c %}
+{% highlight python %}
 Beyaz listeye alma (Whitelisting): pihole -w,
 Kara listeye alma (Blacklisting): pihole -b
 Düzenli ifade (Regex): pihole -regex
@@ -195,7 +231,7 @@ DNS yeniden başlatma (Restart DNS): pihole restartdns
 
 ## Pi-hole Web Komutları:   
 
-{% highlight c %}
+{% highlight python %}
 Parola (Password): pihole -a password secretpassword
 Sıcaklık birimi (Temperature Unit): pihole -a celsius, pihole -a fahrenheit, pihole -a kelvin fahrenheit, pihole -a kelvin
 Ana Bilgisayar Kaydı (Host Record): pihole -a hostrecord
