@@ -174,31 +174,3 @@ Eğer Pi-hole DHCP sunucusunu kullanmaya karar verdiyseniz modemizin DHCP sunucu
 Pi-hole birçok komut kullanır, komut satırı arayüzü kullanabileceğiniz bir kaç komut:
 Tamamı: [https://docs.pi-hole.net/core/pihole-command/](https://docs.pi-hole.net/core/pihole-command/)  
 
-## Pi-hole Core Komutları:  
-
-{% highlight %}
-Beyaz listeye alma (Whitelisting): pihole -w,
-Kara listeye alma (Blacklisting): pihole -b
-Düzenli ifade (Regex): pihole -regex
-Hata ayıklayıcı (Debugger): pihole debug
-Pi-hole günlüğü (Log Flush): pihole flush
-Yeniden yapılandırma  (Reconfigure): pihole reconfigure
-Günlük izleme (Tail): pihole tail
-Yönetici (Admin): pihole -a
-Güncelleme (Update): pihole updatePihole / pihole pihole -up
-Version: pihole version / pihole -v -c
-Kurulumu kaldırma (Uninstall): pihole uninstall
-Durum (Status): pihole status
-Etkinletşrme & Devre dışı bırakma (Enable & Disable): pihole enable
-DNS yeniden başlatma (Restart DNS): pihole restartdns
-{% endhighlight %}
-
-## Pi-hole Web Komutları:   
-
-{% highlight %}
-Parola (Password): pihole -a password secretpassword
-Sıcaklık birimi (Temperature Unit): pihole -a celsius, pihole -a fahrenheit, pihole -a kelvin fahrenheit, pihole -a kelvin
-Ana Bilgisayar Kaydı (Host Record): pihole -a hostrecord
-E-posta adresi (Email Address): pihole -a email admin@domain.com
-Arayüz (Interface): pihole -a interface local
-{% endhighlight %}
