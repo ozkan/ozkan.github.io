@@ -192,11 +192,11 @@ Aşağıdaki resimdeki görüldüğü gibi dağıtılacak IP adresi aralığı b
 
 Eğer Pi-hole DHCP sunucusunu kullanmaya karar verdiyseniz modemizin DHCP sunucusu devre dışı bırakın.   
 
-<div style="text-align:center">
+<p align="center">
 
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/dhcp-mod.png)
 
-</div>
+</p>
 
 3 Modemden DNS Sunucusu olarak pi-hole seçmek. Bu şeklildeki bir kullanımda hiçbir  cihaza (bigisayar/telefon ..) DNS ayarı yapmanıza gerek kalmaz. Bu ağa bağlanacak tüm cihazlar Pi-hole üzerinden internete bağlanır.. (Modemlerin kullanıcı ayarları birbirinden farklılık gösterir)    
 
