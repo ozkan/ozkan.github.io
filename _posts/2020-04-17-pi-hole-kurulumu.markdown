@@ -194,17 +194,17 @@ Eğer Pi-hole DHCP sunucusunu kullanmaya karar verdiyseniz modemizin DHCP sunucu
 
 <div style="text-align:center">
 
-![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/dhcp-mod.png)   
+![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/dhcp-mod.png)
 
 </div>
 
 3 Modemden DNS Sunucusu olarak pi-hole seçmek. Bu şeklildeki bir kullanımda hiçbir  cihaza (bigisayar/telefon ..) DNS ayarı yapmanıza gerek kalmaz. Bu ağa bağlanacak tüm cihazlar Pi-hole üzerinden internete bağlanır.. (Modemlerin kullanıcı ayarları birbirinden farklılık gösterir)    
 
-<div style="text-align:center">
+
 
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/dhcp-mod2.png)   
 
-</div>
+
 <br>
 Pi-hole birçok komut kullanır, komut satırı arayüzü kullanabileceğiniz bir kaç komut:
 Tamamı: [https://docs.pi-hole.net/core/pihole-command/](https://docs.pi-hole.net/core/pihole-command/)  
