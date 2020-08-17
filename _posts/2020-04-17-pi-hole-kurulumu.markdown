@@ -32,12 +32,12 @@ Kurulum dosyasını indirin ve img dosyasını "Win32DiskImager" yardımıyla SD
 Win32DiskImager İndirme Linki: [https://sourceforge.net/projects/win32diskimager/](https://sourceforge.net/projects/win32diskimager/)
 img dosyasını ve kurulum yapacağınız SD kartı seçin ve "write" butonuyla imajı SD karta yazdırın.
 
-! [Pi-hole]({{site.baseurl}}/assets/img/pi-hole/pihole-img.png)
+![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/pihole-img.png)
 
 
 Kurulum tamamladıktan sonra Raspberry Pi'da SSH (Secure Shell, uzak sunucu bağlantı protokolü) etkinleştirebilmek için SD kartın boot bölümüne uzantısız SSH adlı boş bir dosya oluşturun. Raspberry Pi açıldığında boot klasöründe SSH dosyasını arar eğer dosyayı bulursa SSH etkinleştirilir ve dosya silinir. Ayrıntılı bilgiye ihtiyaç duyarsanız şu bağlantıdan 3. adıma bakabilirsiniz: [https://www.raspberrypi.org/documentation/remote-access/ssh/](https://www.raspberrypi.org/documentation/remote-access/ssh/)
 
-! [Pi-hole]({{site.baseurl}}/assets/img/pi-hole/ssh-file.png)
+![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/ssh-file.png)
 
 SD kartınızı Raspberry Pi cihazınıza takın, modeme bağlayın ve güç kablosunu bağlayıp çalıştırın.
 Kurulumu ağ üzerinden gerçekleştireceğimiz için Raspberry pi cihazının ip adresine ihtiyacımız olacak. İp adresini birkaç farklı yolla öğrenebilirsiniz. Modeminizin arayüzünden veya ağdaki cihaz ip'lerini tarayan bir programı bilgisayarınıza/telefonunuza kurarak öğrenebilirsiniz.
@@ -128,7 +128,7 @@ Artık Pi-hole uygulamasına Raspberry Pi cihazımızın ip adresini bilgisayar�
 Pi-hole uygulamasını DNS sunucusu olarak kullanabilmek 3 tane seçeneğimiz.
 
 `1` İç ağdaki her cihaza Pi-hole adresini DNS adresi olarak ayarlamak.
-! [Pi-hole]({{site.baseurl}}/assets/img/pi-hole/ip-dns.png)
+![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/ip-dns.png)
 
 `2` Pi-hole uygulamasını DHCP sunucusu olarak ayarlamak, dns sunucuları Pi-hole yönlendirmek.
 
@@ -147,11 +147,11 @@ Eğer Pi-hole DHCP sunucusunu kullanmaya karar verdiyseniz modemizin DHCP sunucu
 
 <br>
 
-Pi-hole birçok komut kullanır, komut satırı arayüzü kullanabileceğiniz birkaç komut:
+Pi-hole birçok komut kullanır, komut satırı arayüzü kullanabileceğiniz birkaç komut:  
 Tamamı: [https://docs.pi-hole.net/core/pihole-command/](https://docs.pi-hole.net/core/pihole-command/)
 ## Pi-hole Core Komutları:
 
-{% highlight python %}
+{% highlight bash %}
 
 Beyaz listeye alma (Whitelisting): pihole -w,
 Kara listeye alma (Blacklisting): pihole -b
@@ -170,7 +170,7 @@ DNS yeniden başlatma (Restart DNS): pihole restartdns
 {% endhighlight %}
 ## Pi-hole Web Komutları:
 
-{% highlight python %}
+{% highlight bash %}
 
 Parola (Password): pihole -a password secretpassword
 Sıcaklık birimi (Temperature Unit): pihole -a celsius, pihole -a fahrenheit, pihole -a kelvin fahrenheit, pihole -a kelvin
@@ -242,8 +242,9 @@ sudo reboot
 
 Tüm DNS sorgularının düzgün çalıştığını ve Pi-hole'un bazı istekleri engellediğini doğrulayın. 
 Aşağıdaki komutu çalıştırdığınızda xp.apple.com engelli bir adres olduğu için 0.0.0.0 döndermelidir.
+
 {% highlight bash %}
-sudo reboot
+nslookup xp.apple.com 
 {% endhighlight %}
 
 Eğer DNSCrypt-Proxy başarılı bir şekilde çalışıyorsa aşağıdaki gibi bir sonuç döndermelidir.  
