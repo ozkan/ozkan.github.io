@@ -14,6 +14,10 @@ margin-left: auto;
 margin-right: auto;
 width: 50%;
 }
+
+img:hover{
+    width: 90%;
+}
 </style>
 
 # Pi-Hole Nedir?
@@ -53,7 +57,7 @@ Raspberry Pi cihazımızın ip adresini öğrendiğimize göre artık cihazımı
 Programı çalıştırın ve aşağıdaki ekran görüntüsündeki gibi Raspberry Pi cihazının ip adresini girin ve ardından "Open" butonu ile cihaza bağlanın.
 
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/putty.png)
-*PuTTY Raspberry Pi cihazına bağlanama ekranı*
+*PuTTY ile Raspberry Pi cihazına bağlanama ekranı*
 
 Eğer başarılı bir şekilde bağlanabilirseniz Raspberry Pi sizden bir şifre ve kullanıcı adı isteyecek. Varsayılan kullanıcı adı ve şifre aşağıdaki gibidir:
 
@@ -83,7 +87,7 @@ curl -sSL https://install.pi-hole.net | bash
 
 
 
-![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/pihole-install.png)   
+![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/pihole-install.png)
 *Pi-hole kurulumunu başlatma*
 
 Kurulum sihirbazı başlayacak ve kurulum aşamasında Pi-hole hakkında bize bazı bilgiler gösterilecek ve bazı ayarları yapmamızı isteyecek. Aslında bu ayarların büyük bir kısmını varsayılan olarak bırakacağız. Eğer farklı bir versiyon kuruyorsanız veya tereddütte kalırsanız varsayılan ayarı olduğu gibi bırakın.
@@ -128,13 +132,16 @@ pihole -a -p yeniparola
 {% endhighlight %}
 Artık Pi-hole uygulamasına Raspberry Pi cihazımızın ip adresini bilgisayarımızın web tarayıcısına yazarak erişebiliriz.
 
-![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/pi-hole-login.png) <br>
+![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/pi-hole-login.png)
+*Pi-Hole giriş ekranı*
 
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/pi-hole-admin.png)
+*Pi-Hole index sayfası*
 Pi-hole uygulamasını DNS sunucusu olarak kullanabilmek 3 tane seçeneğimiz.
 
 `1` İç ağdaki her cihaza Pi-hole adresini DNS adresi olarak ayarlamak.
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/ip-dns.png)
+*Bilgisayarın DNS adresini ayarlama ekranı*
 
 `2` Pi-hole uygulamasını DHCP sunucusu olarak ayarlamak, dns sunucuları Pi-hole yönlendirmek.
 
@@ -142,14 +149,17 @@ Bunu için "settings" -> "DHCP" yolunu izleyin ve DHCP "server enabled" seçene�
 Pi-hole aşağıda bulunan resimdeki gibi belirlediğiniz aralıktaki ip adreslerini Pi-hole yönlendirir bu sayede modeme bağlanan hiçbir bilgisayara ya da cihaza bir ayar yapmanıza gerek kalmaz.
 Aşağıdaki resimdeki görüldüğü gibi dağıtılacak IP adresi aralığı belirleyebilirsiniz.
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/pi-hole-dhcp.png)
+*Pi-hole DHCP server enabled olarak ayarlam*
 
 Eğer Pi-hole DHCP sunucusunu kullanmaya karar verdiyseniz modemizin DHCP sunucusu devre dışı bırakın.
 
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/dhcp-mod.png)
+*Modem arayünde DHCP ayarı*
 
 `3` Modemden DNS Sunucusu olarak Pi-hole seçmek. Bu şekildeki bir kullanımda hiçbir cihaza (bilgisayar/telefon ...) DNS ayarı yapmanıza gerek kalmaz. Bu ağa bağlanacak tüm cihazlar Pi-hole üzerinden İnternet'e bağlanır.. (Modemlerin kullanıcı ayarları birbirinden farklılık gösterir)
 
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/dhcp-mod2.png)
+*Modem arayünde DHCP ayarı*
 
 <br>
 
