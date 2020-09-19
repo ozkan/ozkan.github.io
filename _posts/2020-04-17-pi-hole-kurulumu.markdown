@@ -39,6 +39,7 @@ img dosyasını ve kurulum yapacağınız SD kartı seçin ve "write" butonuyla 
 Kurulum tamamladıktan sonra Raspberry Pi'da SSH (Secure Shell, uzak sunucu bağlantı protokolü) etkinleştirebilmek için SD kartın boot bölümüne uzantısız SSH adlı boş bir dosya oluşturun. Raspberry Pi açıldığında boot klasöründe SSH dosyasını arar eğer dosyayı bulursa SSH etkinleştirilir ve dosya silinir. Ayrıntılı bilgiye ihtiyaç duyarsanız şu bağlantıdan 3. adıma bakabilirsiniz: [https://www.raspberrypi.org/documentation/remote-access/ssh/](https://www.raspberrypi.org/documentation/remote-access/ssh/)
 
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/ssh-file.png)
+*SSH dosyası*
 
 SD kartınızı Raspberry Pi cihazınıza takın, modeme bağlayın ve güç kablosunu bağlayıp çalıştırın.
 Kurulumu ağ üzerinden gerçekleştireceğimiz için Raspberry pi cihazının ip adresine ihtiyacımız olacak. İp adresini birkaç farklı yolla öğrenebilirsiniz. Modeminizin arayüzünden veya ağdaki cihaz ip'lerini tarayan bir programı bilgisayarınıza/telefonunuza kurarak öğrenebilirsiniz.
@@ -46,11 +47,13 @@ Ben bu işlemler için çoğunlukla "Advanced IP Scanner" programını kullanıy
 Advanced IP Scanner programını şu adresten indirebilirsiniz: [ https://www.advanced-ip-scanner.com/tr/](https://www.advanced-ip-scanner.com/tr/)
 
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/ip-search.png)
+*Advanced IP Scanner ile Raspberry Pi İp adresi öğrenme*
 
 Raspberry Pi cihazımızın ip adresini öğrendiğimize göre artık cihazımızın terminaline bağlanabiliriz. Bu işlem (SSH) için sıklıkla "PuTTY" adlı program kullanılıyor. Eğer Bilgisayarınızda yüklü değilse şu adresten indirebilirsiniz: [https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html )
 Programı çalıştırın ve aşağıdaki ekran görüntüsündeki gibi Raspberry Pi cihazının ip adresini girin ve ardından "Open" butonu ile cihaza bağlanın.
 
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/putty.png)
+*PuTTY Raspberry Pi cihazına bağlanama ekranı*
 
 Eğer başarılı bir şekilde bağlanabilirseniz Raspberry Pi sizden bir şifre ve kullanıcı adı isteyecek. Varsayılan kullanıcı adı ve şifre aşağıdaki gibidir:
 
@@ -60,6 +63,7 @@ Kullanıcı adı: pi
 {% endhighlight %}
 
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/pi-terminal.png)
+*Raspberry Pi terminali*
 
 ## Pi-Hole Kurulumu
 
@@ -80,6 +84,7 @@ curl -sSL https://install.pi-hole.net | bash
 
 
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/pihole-install.png)   
+*Pi-hole kurulumunu başlatma*
 
 Kurulum sihirbazı başlayacak ve kurulum aşamasında Pi-hole hakkında bize bazı bilgiler gösterilecek ve bazı ayarları yapmamızı isteyecek. Aslında bu ayarların büyük bir kısmını varsayılan olarak bırakacağız. Eğer farklı bir versiyon kuruyorsanız veya tereddütte kalırsanız varsayılan ayarı olduğu gibi bırakın.
 
