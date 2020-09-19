@@ -33,6 +33,7 @@ Win32DiskImager İndirme Linki: [https://sourceforge.net/projects/win32diskimage
 img dosyasını ve kurulum yapacağınız SD kartı seçin ve "write" butonuyla imajı SD karta yazdırın.
 
 ![Pi-hole]({{site.baseurl}}/assets/img/pi-hole/pihole-img.png)
+*Win32 Disk Imager ile SD kart kurulumu *
 
 
 Kurulum tamamladıktan sonra Raspberry Pi'da SSH (Secure Shell, uzak sunucu bağlantı protokolü) etkinleştirebilmek için SD kartın boot bölümüne uzantısız SSH adlı boş bir dosya oluşturun. Raspberry Pi açıldığında boot klasöründe SSH dosyasını arar eğer dosyayı bulursa SSH etkinleştirilir ve dosya silinir. Ayrıntılı bilgiye ihtiyaç duyarsanız şu bağlantıdan 3. adıma bakabilirsiniz: [https://www.raspberrypi.org/documentation/remote-access/ssh/](https://www.raspberrypi.org/documentation/remote-access/ssh/)
