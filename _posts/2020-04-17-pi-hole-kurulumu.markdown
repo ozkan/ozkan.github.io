@@ -16,7 +16,7 @@ width: 50%;
 }
 
 img:hover{
-    width: 90%;
+    width: 60%;
 }
 </style>
 
