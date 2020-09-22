@@ -15,9 +15,7 @@ margin-right: auto;
 width: 50%;
 }
 
-img:hover{
-    width: 60%;
-}
+
 </style>
 
 # Pi-Hole Nedir?
