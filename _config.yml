@@ -31,6 +31,7 @@ analytics: UA-129762459-1 # Google Analytics
 markdown: kramdown
 
 plugins:
+  - jekyll-pwa-plugin
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
@@ -42,8 +43,25 @@ plugins:
 jekyll-mentions:
   base_url: https://twitter.com
 
-
 paginate: 8
 paginate_path: "/page/:num"
+
+
+pwa:
+  enabled: false # Optional
+  sw_src_filepath: service-worker.js # Optional
+  sw_dest_filename: service-worker.js # Optional
+  dest_js_directory: assets/js # Required
+  precache_recent_posts_num: 5 # Optional
+  precache_glob_directory: / # Optional
+  precache_glob_patterns: # Optional
+    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
+    - index.html
+  precache_glob_ignores: # Optional
+    - sw-register.js
+    - "fonts/**/*"
+
+
+
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
