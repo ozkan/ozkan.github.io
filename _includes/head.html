@@ -86,7 +86,18 @@
 	<link rel="stylesheet" href="{{ "/assets/fonts/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
 	<!-- Styles -->
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
-  
+
+
+  <!--  manifest -->
+  <link rel="manifest" href="/manifest.json">
+
+  <!--  iOS meta tags and icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="{{ site.title }">
+  <link rel="apple-touch-icon" href="{{ "/assets/img/favicon/icon-152x152.png" }}">
+  <script src="{{ "/assets/js/worker.js" }}"></script>
+    
 
   
 {% include analytics.html %}
