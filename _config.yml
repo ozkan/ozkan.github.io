@@ -31,7 +31,6 @@ analytics: UA-129762459-1 # Google Analytics
 markdown: kramdown
 
 plugins:
-  - jekyll-pwa-plugin
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
@@ -45,11 +44,6 @@ jekyll-mentions:
 
 paginate: 8
 paginate_path: "/page/:num"
-
-
-pwa:
-  enabled: false # Optional
-
 
 
 
