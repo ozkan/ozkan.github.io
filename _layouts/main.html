@@ -24,13 +24,16 @@ layout: default
       <br>
       <button class="add-button"> <i class="fa fa-rocket" aria-hidden="true"></i> Ana ekrana ekle </button>
       <br>
+      {% if site.saying %}
       <p>
         <small> 
           <a href="{{site.baseurl}}/#" style="color:#2c89fb; text-decoration:none; font-style:italic;">{{site.saying}}</a></i><br>
-          {{site.s-author}}
+          {% if site.s-author %}
+              {{site.s-author}}
+          {% endif %}
         </small>
       </p>
-
+      {% endif %}
       
     </div>
 

@@ -879,18 +879,16 @@ table tfoot td {
   padding: 1px 5px;
   font-size: 12px;
   line-height: 1.5;
+  border: 1px solid #b7c5d3;
   border-radius: 3px;
-  border: 1px solid transparent;
-  border-color: #b7c5d3;
-  vertical-align: middle;
   cursor: pointer;
   color: #b7c5d3;
 }
 
 .add-button:hover {
-border-color: #fff;
-color: #fff;
-text-decoration: none;
+  border-color: #fff;
+  color: #fff;
+  text-decoration: none;
 }
 
 /* - - - - - - - - - - pwa button end- - - - - - - - - - */
