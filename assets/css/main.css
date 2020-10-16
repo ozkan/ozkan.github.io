@@ -876,6 +876,7 @@ table tfoot td {
   position: absolute;
   top: 1px;
   left: 1px;
+  z-index: 9999;
 }
 
 /* - - - - - - - - - - searh - - - - - - - - - - */
