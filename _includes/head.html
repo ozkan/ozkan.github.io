@@ -89,14 +89,14 @@
 
 
   <!--  manifest -->
-  <link rel="manifest" href="/manifest.json">
+  <link rel="manifest" href="{{"/manifest.json" | prepend: site.baseurl }}">
 
   <!--  iOS meta tags and icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="{{ site.title }">
-  <link rel="apple-touch-icon" href="{{ "/assets/img/favicon/icon-152x152.png" }}">
-  <script src="{{ "/assets/js/worker.js" }}"></script>
+  <link rel="apple-touch-icon" href="{{ "/assets/img/favicon/icon-152x152.png" | prepend: site.baseurl }}">
+  <script src="{{ "/assets/js/worker.js" | prepend: site.baseurl }}"></script>
     
 
   
