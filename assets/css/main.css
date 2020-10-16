@@ -872,12 +872,12 @@ table tfoot td {
   clear: both;
 }
 
-.add-button {
+/* .add-button {
   position: absolute;
   top: 1px;
   left: 1px;
   z-index: 9999;
-}
+} */
 
 /* - - - - - - - - - - searh - - - - - - - - - - */
 
