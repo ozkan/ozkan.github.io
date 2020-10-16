@@ -874,6 +874,7 @@ table tfoot td {
 
 /* - - - - - - - - - - pwa button - - - - - - - - - - */
 .add-button {
+  width: 120px;
   background-color: transparent;
   transition: all .25s;
   padding: 1px 5px;
@@ -883,12 +884,15 @@ table tfoot td {
   border-radius: 3px;
   cursor: pointer;
   color: #b7c5d3;
+  margin: 3px auto;
 }
 
 .add-button:hover {
   border-color: #fff;
   color: #fff;
   text-decoration: none;
+  margin: 3px auto;
+
 }
 
 /* - - - - - - - - - - pwa button end- - - - - - - - - - */
