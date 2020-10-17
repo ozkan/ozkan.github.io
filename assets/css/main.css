@@ -877,7 +877,7 @@ table tfoot td {
   width: 120px;
   background-color: transparent;
   transition: all .25s;
-  padding: 1px 5px;
+  padding: 2px 6px;
   font-size: 12px;
   line-height: 1.5;
   border: 1px solid #b7c5d3;
