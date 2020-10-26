@@ -9,5 +9,4 @@ group :jekyll_plugins do
   gem "jekyll-mentions"
   gem "jekyll-feed"
   gem "jekyll-seo-tag"
-  gem "jekyll-admin"
 end
