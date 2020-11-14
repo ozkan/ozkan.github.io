@@ -3,7 +3,7 @@ description: > # this means to ignore newlines until "baseurl:"
   özkan çelik kişisel blog sitesi, python ,diy, bote, raspberry pi, elektronik 
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: http://celikozkan.com
+url: https://celikozkan.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
@@ -12,7 +12,7 @@ author-img: ozkancelik.png # add your photo
 about-author: Bir şeyler deniyorum # add description
 social-twitter: .# add your Twitter handle
 social-facebook: .# add your Facebook handle
-social-github: celikozkan # add your Github handle
+social-github: ozkan # add your Github handle
 social-linkedin: celikozkan # add your Linkedin handle
 social-email: ozkan44celik@gmail.com # add your Email address
 saying: #
