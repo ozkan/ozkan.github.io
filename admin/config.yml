@@ -10,6 +10,7 @@ backend:
     deleteMedia: "chore(assets): :wastebasket: Delete {{path}}"
 
 media_folder: 'assets/img'
+logo_url: 'https://ozkancelik.com/assets/img/ozkancelik.png'
 
 collections:
   - name: 'blog'
@@ -25,11 +26,6 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Header Photo', name: 'img', widget: 'image' }
-      - { label: 'Tags', name: 'tags', widget: 'list' }
+      - { label: 'Tags', name: 'tags', widget: 'list', required: false }
       - { label: 'Published', name: 'published', widget: 'boolean', default: false }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'data'
-    label: "Data"
-    folder: '_data/sozler.yml'
-    fields:
       - { label: 'Body', name: 'body', widget: 'markdown' }
