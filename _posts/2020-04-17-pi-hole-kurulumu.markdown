@@ -1,10 +1,14 @@
 ---
 layout: post
 title: "Pi-Hole Kurulum Rehberi"
-date: 2020-08-17 02:30:20 +0300
+date: 2020-08-17T21:32:10.721Z
 description: Pi-Hole kurulumu
 img: "/assets/img/pihole.png"
-tags: [pi-hole, raspberry pi, DNSCrypt-Proxy, reklam engelleme]
+tags:
+ - pi-hole
+ - raspberry pi
+ - DNSCrypt-Proxy
+ - reklam engelleme
 published: true
 ---
 
