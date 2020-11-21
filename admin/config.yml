@@ -28,3 +28,8 @@ collections:
       - { label: 'Tags', name: 'tags', widget: 'list' }
       - { label: 'Published', name: 'published', widget: 'boolean', default: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'data'
+    label: "Data"
+    folder: '_data/sozler.yml'
+    fields:
+      - { label: 'Body', name: 'body', widget: 'markdown' }
