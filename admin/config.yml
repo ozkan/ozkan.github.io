@@ -1,0 +1,24 @@
+backend:
+  name: github
+  repo: ozkan/ozkan.github.io # Path to your GitHub repository
+  branch: master # Branch to update (optional; defaults to master)
+
+media_folder: 'assets/img'
+
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: '_posts/'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Header Photo', name: 'img', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'list' }
+      - { label: 'Published', name: 'published', widget: 'boolean', default: false }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
