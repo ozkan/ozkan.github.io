@@ -33,11 +33,4 @@ collections:
     name: "soz"
     file: "_data/sozler.yml"
     fields:
-      - {label: Soz, name: soz, widget: string}
-      - {label: Intro, name: intro, widget: markdown}
-      - label: Sozler
-        name: sozler
-        widget: list
-        fields:
-          - {label: Soz, name: soz, widget: string}
-          - {label: sahip, name: sahip, widget: string}
+      - {label: Body, name: body, widget: markdown}
