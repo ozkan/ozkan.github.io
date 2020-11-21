@@ -5,6 +5,7 @@ date: 2018-11-29 23:47:20 +0300
 description: Python Karakter Dizilerinin Metotları 
 img: "/assets/img/karakter_dizileri.png"
 tags: [python, karakter-dizileri]
+published: true
 ---
 
   Karakter dizilerinin metotlarını dir() gömülü fonksiyonunu kullanarak listeleyebiliriz.  

@@ -5,6 +5,7 @@ date: 2019-03-09 21:55:20 +0300
 description: C Örnekleri
 img: "/assets/img/cprogramlama.png" 
 tags: [c, c programlama]
+published: true
 ---
 
 Operatörler, döngüler, fonksiyonlar, tek ve iki boyutlu diziler,<br>

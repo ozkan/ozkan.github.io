@@ -5,6 +5,7 @@ date: 2018-12-09 18:28:20 +0300
 description: Brython
 img: "/assets/img/brython.png"
 tags: [python, brython]
+published: true
 ---
 
 **Brython**,  Python kodlarını tarayıcıya yerleşik, tarayıcı desteği olan bir dilmiş gibi web sayfası içinde  yazap çalıştırabilmeyi sağlar.  
