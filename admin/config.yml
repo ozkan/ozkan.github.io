@@ -2,6 +2,12 @@ backend:
   name: github
   repo: ozkan/ozkan.github.io # Path to your GitHub repository
   branch: master # Branch to update (optional; defaults to master)
+  commit_messages: # Optional: configure the commit messages Netlify CMS will use when publishing changes
+    create: "feat({{collection}}): :sparkles: Create {{slug}}"
+    update: "chore({{collection}}): :recycle: Update {{slug}}"
+    delete: "chore({{collection}}): :recycle: Delete {{slug}}"
+    uploadMedia: "feat(assets): :bento: Upload {{path}}"
+    deleteMedia: "chore(assets): :wastebasket: Delete {{path}}"
 
 media_folder: 'assets/img'
 
