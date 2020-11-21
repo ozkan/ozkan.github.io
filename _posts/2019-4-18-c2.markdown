@@ -3,7 +3,7 @@ layout: post
 title: "C Programlama Örnekleri 2"
 date: 2019-04-18 19:44:20 +0300
 description: C Programlama Örnekleri 2
-img: cprogramlama.png 
+img: "/assets/img/cprogramlama.png"
 tags: [c, c programlama]
 ---
 

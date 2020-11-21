@@ -3,7 +3,7 @@ layout: post
 title: "İnsan Beyninin Kelimeleri Bir Bütün Olarak Okuması"
 date: 2018-11-18 18:28:20 +0300
 description: Cambridge Üniversitesi'nde yapılmış bir araştırmanın sonucu 
-img: yazi-resmi.png
+img: "/assets/img/yazi-resmi.png"
 tags: [python, cambridge]
 excerpt_separator: <!--more-->
 ---

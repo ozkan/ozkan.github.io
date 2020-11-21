@@ -3,7 +3,7 @@ layout: post
 title: "Python Karakter Dizilerinin Metotları"
 date: 2018-11-29 23:47:20 +0300
 description: Python Karakter Dizilerinin Metotları 
-img: karakter_dizileri.png
+img: "/assets/img/karakter_dizileri.png"
 tags: [python, karakter-dizileri]
 ---
 
