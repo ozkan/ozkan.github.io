@@ -24,7 +24,7 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Header Photo', name: 'img', widget: 'string' }
+      - { label: 'Header Photo', name: 'img', widget: 'image' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
       - { label: 'Published', name: 'published', widget: 'boolean', default: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
