@@ -1,19 +1,25 @@
 items:
-  - name: "isim1"
+  - name: isim1
     year: "2019"
-    title: "baslik1"
-    purpose: "Taciklama1"
-    pdf: "pdf link 1"
-    profile_img:
-    thesis_type: "Master"
+    title: baslik1
+    purpose: Taciklama1
+    pdf: pdf link 1
+    profile_img: /assets/img/python.jpg
+    thesis_type: Master
     graduated: YES
-
-  - name: "isim1"
+  - name: isim1
     year: "2019"
-    title: "baslik1"
-    purpose: "Taciklama1"
-    pdf: "pdf link 1"
-    profile_img:
-    thesis_type: "Master"
+    title: baslik1
+    purpose: Taciklama1
+    pdf: pdf link 1
+    profile_img: /assets/img/web.png
+    thesis_type: Master
     graduated: YES
-
+  - name: abc-name
+    year: abc-2019
+    title: abc-title
+    purpose: abc-purpose
+    pdf: abc-pdf
+    profile_img: /assets/img/mail.png
+    thesis_type: abc-master
+    graduated: true
