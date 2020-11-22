@@ -52,7 +52,8 @@ collections:
               - {label: Graduated, name: graduated, widget: boolean}
   - name: "settings"
     label: "Settings"
-    format: frontmatter 
+    format: frontmatter
+    editor:
       preview: false
     files:
       - name: "raw"
