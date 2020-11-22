@@ -42,10 +42,10 @@ collections:
             name: "items"
             widget: "list"
             fields:
-              - {label: Name, name: name, widget: string}
+              - {label: Name, name: 'name', widget: string}
               - {label: Year, name: year, widget: string}
               - {label: Title, name: title, widget: string}
-              - {label: Purpose, name: pupose, widget: string}
+              - {label: Purpose, name: purpose, widget: string}
               - {label: Pdf, name: pdf, widget: string}
               - {label: Profile image, name: profile_img, widget: image}
               - {label: Thesis Type, name: thesis_type, widget: string}
