@@ -50,3 +50,18 @@ collections:
               - {label: Profile image, name: profile_img, widget: image}
               - {label: Thesis Type, name: thesis_type, widget: string}
               - {label: Graduated, name: graduated, widget: boolean}
+      - name: "settings"
+        label: "Settings"
+        format: frontmatter  #<--------------------------- Workaround
+        editor:
+          preview: false
+        files:
+          - name: "raw"
+            label: "Raw File"
+            file: "_data/bibtex.bib"
+            fields:
+              - {label: "Content", name: "body", widget: "text"}
+
+
+
+# {label: “Categories”, name: “categories”, widget: “select”, options: [“Audax”, “Casuual/Family Ride”, “Cyclocross”, “Fixed”, “Group Ride”, “Sportive”]}
