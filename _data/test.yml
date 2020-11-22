@@ -1,0 +1,18 @@
+- name: "isim1"
+  year: "2019"
+  title: "baslik1"
+  purpose: "Taciklama1"
+  pdf: "pdf link 1"
+  profile_img:
+  thesis_type: "Master"
+  graduated: YES
+
+- name: "isim1"
+  year: "2019"
+  title: "baslik1"
+  purpose: "Taciklama1"
+  pdf: "pdf link 1"
+  profile_img:
+  thesis_type: "Master"
+  graduated: YES
+

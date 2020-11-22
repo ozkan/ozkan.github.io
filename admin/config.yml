@@ -29,3 +29,24 @@ collections:
       - { label: 'Tags', name: 'tags', widget: 'list', required: false }
       - { label: 'Published', name: 'published', widget: 'boolean', default: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: "config"
+    label: "Config"
+    editor:
+      preview: false
+    files:
+      - label: "Navigation"
+        name: "navigation"
+        file: "_data/test.yml"
+        fields:
+          - label: "Navigation Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Year, name: year, widget: string}
+              - {label: Title, name: title, widget: string}
+              - {label: Purpose, name: pupose, widget: string}
+              - {label: Pdf, name: pdf, widget: string}
+              - {label: Profile image, name: profile_img, widget: image}
+              - {label: Thesis Type, name: thesis_type, widget: string}
+              - {label: Graduated, name: graduated, widget: boolean}
