@@ -11,6 +11,7 @@ backend:
 
 media_folder: 'assets/img'
 logo_url: 'https://ozkancelik.com/assets/img/ozkancelik.png'
+publish_mode: editorial_workflow
 
 collections:
   - name: 'blog'
@@ -18,7 +19,6 @@ collections:
     folder: '_posts/'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    publish_mode: editorial_workflow
     editor:
       preview: true
     fields:
