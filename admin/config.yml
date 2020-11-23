@@ -71,7 +71,7 @@ collections:
     folder: '_bibliography/'
     format: "frontmatter"
     extension: "bib"
-    slug: "{{ title }}"
+    slug: '{{filename}}'
     editor:
       preview: false
     fields:
