@@ -34,7 +34,7 @@ collections:
   - name: "config"
     label: "Config"
     media_folder: 'assets/img/pi-hole'
-    public_folder: "/img/pi-hole"
+    public_folder: 'assets/img/pi-hole'
     editor:
       preview: false
     files:
