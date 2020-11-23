@@ -69,9 +69,9 @@ collections:
   - name: "bibtex"
     label: "Bibtex"
     folder: '_bibliography/'
-    # format: "frontmatter"
+    format: "frontmatter"
     extension: "bib"
-    # slug: '{{filename}}'
+    filename: ""
     editor:
       preview: false
     fields:
