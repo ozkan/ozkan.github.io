@@ -30,6 +30,14 @@ collections:
       - { label: 'Tags', name: 'tags', widget: 'list', required: false }
       - { label: 'Published', name: 'published', widget: 'boolean', default: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: "Manual PDF"
+        name: "manual_pdf"
+        widget: "file"
+        required: false
+        default: "/uploads/general-manual.pdf"
+        media_library:
+          config:
+            multiple: true
   - name: "config"
     label: "Config"
     editor:
@@ -51,6 +59,7 @@ collections:
               - {label: Profile image, name: profile_img, widget: image}
               - {label: Thesis Type, name: thesis_type, widget: string}
               - {label: Graduated, name: graduated, widget: boolean}
+
   - name: "settings"
     label: "Settings"
     format: "frontmatter"
@@ -63,6 +72,7 @@ collections:
         fields:
           - {label: "Content", name: "body", widget: "text"}
 
+
   - name: "bibtex"
     label: "Bibtex"
     folder: '_bibliography/'
@@ -72,13 +82,7 @@ collections:
     fields:
       - {label: "Content", name: "body", widget: "text"}
 
-      - label: "Manual PDF"
-        name: "manual_pdf"
-        widget: "file"
-        default: "/uploads/general-manual.pdf"
-        media_library:
-          config:
-            multiple: true
+
 
 
 
