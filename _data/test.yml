@@ -20,6 +20,6 @@ items:
     title: abc-title
     purpose: abc-purpose
     pdf: abc-pdf
-    profile_img: assets/img/pi-hole/python.png
+    profile_img: assets/img/pi-hole/index.jpg
     thesis_type: abc-master
     graduated: true
