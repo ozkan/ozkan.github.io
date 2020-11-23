@@ -38,6 +38,7 @@ collections:
         media_library:
           config:
             multiple: true
+      - { label: 'Color', name: 'color', widget: 'color', required: false  }
   - name: "config"
     label: "Config"
     editor:
