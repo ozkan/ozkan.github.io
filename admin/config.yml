@@ -69,7 +69,7 @@ collections:
     format: "frontmatter"
     editor:
       preview: false
-    files:
+    fields:
       - {label: "Content", name: "body", widget: "text"}
 
 
