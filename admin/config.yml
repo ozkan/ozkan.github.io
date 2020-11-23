@@ -70,10 +70,8 @@ collections:
     editor:
       preview: false
     files:
-      - name: "bibtex"
-        label: "Bibtex File"
-        fields:
-          - {label: "Content", name: "body", widget: "text"}
+      - {label: "Content", name: "body", widget: "text"}
+
 
 
 
