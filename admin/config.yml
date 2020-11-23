@@ -62,6 +62,19 @@ collections:
         fields:
           - {label: "Content", name: "body", widget: "text"}
 
+  - name: "bibtex"
+    label: "Bibtex"
+    folder: '_bibliography/'
+    format: "frontmatter"
+    editor:
+      preview: false
+    files:
+      - name: "bibtex"
+        label: "Bibtex File"
+        fields:
+          - {label: "Content", name: "body", widget: "text"}
+
+
 
 
 # {label: “Categories”, name: “categories”, widget: “select”, options: [“Audax”, “Casuual/Family Ride”, “Cyclocross”, “Fixed”, “Group Ride”, “Sportive”]}
