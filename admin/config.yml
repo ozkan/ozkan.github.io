@@ -30,15 +30,7 @@ collections:
       - { label: 'Tags', name: 'tags', widget: 'list', required: false }
       - { label: 'Published', name: 'published', widget: 'boolean', default: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - label: "Manual PDF"
-        name: "manual_pdf"
-        widget: "file"
-        required: false
-        default: "/uploads/general-manual.pdf"
-        media_library:
-          config:
-            multiple: true
-      - { label: 'Color', name: 'color', widget: 'color', required: false  }
+
   - name: "config"
     label: "Config"
     editor:
@@ -89,6 +81,7 @@ collections:
 
 
 # {label: “Categories”, name: “categories”, widget: “select”, options: [“Audax”, “Casuual/Family Ride”, “Cyclocross”, “Fixed”, “Group Ride”, “Sportive”]}
+# - { label: 'Color', name: 'color', widget: 'color', required: false  }
 
 
 # - label: "Manual PDF"
