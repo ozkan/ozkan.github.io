@@ -65,6 +65,7 @@ collections:
   - name: "bibtex"
     label: "Bibtex"
     folder: '_bibliography/'
+    slug: '{{slug}}'
     format: "frontmatter"
     editor:
       preview: false
