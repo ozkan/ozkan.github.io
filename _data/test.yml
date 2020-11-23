@@ -15,11 +15,3 @@ items:
     profile_img: /assets/img/web.png
     thesis_type: Master
     graduated: YES
-  - name: abc-name
-    year: abc-2019
-    title: abc-title
-    purpose: abc-purpose
-    pdf: abc-pdf
-    profile_img: assets/img/pi-hole/index.jpg
-    thesis_type: abc-master
-    graduated: true
