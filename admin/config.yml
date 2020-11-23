@@ -77,8 +77,8 @@ collections:
       preview: false
     fields:
       # - {label: "Content", name: "body", widget: "text"}
-      - label: 'Code'
-        name: 'code'
+      - label: 'Content'
+        name: 'body'
         widget: 'code'
         required: false
 
