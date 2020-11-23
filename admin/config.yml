@@ -56,7 +56,6 @@ collections:
   - name: "settings"
     label: "Settings"
     format: "frontmatter"
-    extension: "bib"
     editor:
       preview: false
     files:
@@ -64,14 +63,14 @@ collections:
         label: "Raw File"
         file: "_data/bibtex.bib"
         fields:
-          - {label: "Content", name: "body", widget: "code"}
-          # - {label: "Content", name: "body", widget: "text"}
+          - {label: "Content", name: "body", widget: "text"}
 
 
   - name: "bibtex"
     label: "Bibtex"
     folder: '_bibliography/'
     format: "frontmatter"
+    extension: "bib"
     editor:
       preview: false
     fields:
