@@ -60,7 +60,7 @@ collections:
         label: "Raw File"
         file: "_data/bibtex.bib"
         fields:
-          - {label: "Content", name: "body", widget: "text"}
+          - {label: "Content", name: "body", widget: "markdown"}
 
 
 
